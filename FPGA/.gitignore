@@ -1,0 +1,19 @@
+# Vivado log and journal files
+*.log
+*.jou
+*.str
+vivado*.str
+vivado*.ini
+.Xil/
+
+# Synthesis, Implementation, and Simulation outputs
+/ip_user_files/
+/managed_ip_project/
+*.dir/
+*.pb
+*.bd
+*.hw/
+*.sim/
+*.runs/
+*.cache/
+*.ioplanning/
