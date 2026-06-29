@@ -1,0 +1,224 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "b9ed8ff9-3a91-4311-b656-324fcf6f7e0c")
+	(paper "A5")
+	(lib_symbols)
+	(sheet
+		(at 15.24 17.78)
+		(size 31.75 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2a901d39-6beb-43c6-8602-9359e9e7f825")
+		(property "Sheetname" "power"
+			(at 15.24 17.0684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 15.24 33.6046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TriCore-X"
+				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 15.24 66.04)
+		(size 31.75 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "45137173-f1ef-400b-ac8f-02414908b40e")
+		(property "Sheetname" "DDR4"
+			(at 15.24 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DDR4.kicad_sch"
+			(at 15.24 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TriCore-X"
+				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 15.24 90.17)
+		(size 31.75 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "61906021-8f9a-44c1-a3fd-cf11455c89ec")
+		(property "Sheetname" "FPGA"
+			(at 15.24 89.4584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FPGA.kicad_sch"
+			(at 15.24 105.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TriCore-X"
+				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 15.24 41.91)
+		(size 31.75 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7aec3465-79cd-4dd7-b3bd-c0d6af68e150")
+		(property "Sheetname" "RK3568B2"
+			(at 15.24 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RK3568B2.kicad_sch"
+			(at 15.24 57.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TriCore-X"
+				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 15.24 114.3)
+		(size 31.75 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d8b54100-102a-488d-ad3c-0f8a33b65314")
+		(property "Sheetname" "Debug_Interface"
+			(at 15.24 113.5884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Debug_Interface.kicad_sch"
+			(at 15.24 130.1246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TriCore-X"
+				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
