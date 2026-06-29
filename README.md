@@ -1,7 +1,7 @@
 # TriCore-X
 
 > **TriCore-X : A heterogeneous development board.**
-> This is a board that integrates FPGA and two MCUs in it.
+> This is a board that integrates FPGA, one MPU and one MCUs in it.
 
 ---
 
