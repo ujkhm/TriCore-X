@@ -2,5 +2,6 @@
   (version 7)
   (lib (name "RK3568B2")(type "KiCad")(uri "${KIPRJMOD}/symbols and footprints.pretty/RK3568B2/RK3568B2.kicad_sym")(options "")(descr ""))
   (lib (name "TPS56637RPAR")(type "KiCad")(uri "${KIPRJMOD}/symbols and footprints.pretty/TPS56637RPAR/TPS56637RPAR.kicad_sym")(options "")(descr ""))
-  (lib (name "IHLP3232DZER3R3M11")(type "KiCad")(uri "${KIPRJMOD}/symbols and footprints.pretty/IHLP3232DZER3R3M11/IHLP3232DZER3R3M11.kicad_sym")(options "")(descr ""))
+  (lib (name "DC_INPUT")(type "KiCad")(uri "${KIPRJMOD}/symbols and footprints.pretty/PJ-035DH/PJ-035DH.kicad_sym")(options "")(descr ""))
+  (lib (name "SMBJ26A")(type "KiCad")(uri "${KIPRJMOD}/symbols and footprints.pretty/SMBJ26A/SMBJ26A.kicad_sym")(options "")(descr ""))
 )
