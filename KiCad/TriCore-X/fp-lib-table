@@ -8,4 +8,6 @@
   (lib (name "K4AAG165WB-BCWE")(type "KiCad")(uri "${KIPRJMOD}/symbols and footprints.pretty/K4AAG165WB-BCWE")(options "")(descr ""))
   (lib (name "877159106")(type "KiCad")(uri "${KIPRJMOD}/symbols and footprints.pretty/877159106")(options "")(descr ""))
   (lib (name "LPJG0926HENL")(type "KiCad")(uri "${KIPRJMOD}/symbols and footprints.pretty/LPJG0926HENL")(options "")(descr ""))
+  (lib (name "TYPE-C")(type "KiCad")(uri "${KIPRJMOD}/symbols and footprints.pretty/TYPE-C")(options "")(descr ""))
+  (lib (name "TYPE-A")(type "KiCad")(uri "${KIPRJMOD}/symbols and footprints.pretty/TYPE-A")(options "")(descr ""))
 )
