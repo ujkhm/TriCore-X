@@ -4,4 +4,8 @@
   (lib (name "TPS56637RPAR")(type "KiCad")(uri "${KIPRJMOD}/symbols and footprints.pretty/TPS56637RPAR/TPS56637RPAR.kicad_sym")(options "")(descr ""))
   (lib (name "DC_INPUT")(type "KiCad")(uri "${KIPRJMOD}/symbols and footprints.pretty/PJ-035DH/PJ-035DH.kicad_sym")(options "")(descr ""))
   (lib (name "SMBJ26A")(type "KiCad")(uri "${KIPRJMOD}/symbols and footprints.pretty/SMBJ26A/SMBJ26A.kicad_sym")(options "")(descr ""))
+  (lib (name "RK809-5")(type "KiCad")(uri "${KIPRJMOD}/symbols and footprints.pretty/RK809-5/RK809-5.kicad_sym")(options "")(descr ""))
+  (lib (name "K4AAG165WB-BCWE")(type "KiCad")(uri "${KIPRJMOD}/symbols and footprints.pretty/K4AAG165WB-BCWE/K4AAG165WB-BCWE.kicad_sym")(options "")(descr ""))
+  (lib (name "877159106")(type "KiCad")(uri "${KIPRJMOD}/symbols and footprints.pretty/877159106/877159106.kicad_sym")(options "")(descr ""))
+  (lib (name "LPJG0926HENL")(type "KiCad")(uri "${KIPRJMOD}/symbols and footprints.pretty/LPJG0926HENL/LPJG0926HENL.kicad_sym")(options "")(descr ""))
 )

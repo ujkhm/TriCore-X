@@ -1,0 +1,5 @@
+(version 1)
+(rule "BGA Footprint Pad Relaxation"
+    (constraint track_width (min 0.09mm))
+    (constraint clearance (min 0.09mm))
+    (condition "A.intersectsFootprint('U*')"))
