@@ -5,5 +5,5 @@
 
 ---
 
-###  Project Note
-*I was just 15 years old when I started this project (June 25, 2026), and it began as a sudden thought that I decided to build. So please keep your expectations low—but it won't be too bad either! *
+###  Project Story
+*The origin was started because I need a Pick-and-Place (PNP) machine, but buying that is too expensive, so I decided to DIY.Also, I hope this board can be used in the future.That's exactly why this board need MPU, FPGA, and MCU in one board.I was just 15 years old when I started this project (June 25, 2026), and it began as a sudden thought that I decided to build. So please keep your expectations low—but it won't be too bad either! *
