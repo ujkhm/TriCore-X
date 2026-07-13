@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 1.7,
+          "height": 1.5,
+          "width": 2.3
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -689,6 +689,10 @@
     [
       "0a747f2c-9f58-498b-af92-80cd731affd0",
       "Expansion_Port"
+    ],
+    [
+      "947b9af7-0b08-456b-ad03-a4dd3c7b9c00",
+      "STM32"
     ]
   ],
   "text_variables": {}

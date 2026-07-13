@@ -216,6 +216,48 @@
 		)
 	)
 	(sheet
+		(at 54.61 41.91)
+		(size 31.75 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "947b9af7-0b08-456b-ad03-a4dd3c7b9c00")
+		(property "Sheetname" "STM32"
+			(at 54.61 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "STM32.kicad_sch"
+			(at 54.61 57.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TriCore-X"
+				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 15.24 114.3)
 		(size 31.75 15.24)
 		(exclude_from_sim no)
