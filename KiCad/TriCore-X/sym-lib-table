@@ -11,4 +11,6 @@
   (lib (name "JFM38U1B-B313-4F")(type "KiCad")(uri "${KIPRJMOD}/symbols and footprints.pretty/JFM38U1B-B313-4F/JFM38U1B-B313-4F.kicad_sym")(options "")(descr ""))
   (lib (name "ESD224DQAR")(type "KiCad")(uri "${KIPRJMOD}/symbols and footprints.pretty/ESD224DQAR/ESD224DQAR.kicad_sym")(options "")(descr ""))
   (lib (name "TPD12S016RKTR")(type "KiCad")(uri "${KIPRJMOD}/symbols and footprints.pretty/TPD12S016RKTR/TPD12S016RKTR.kicad_sym")(options "")(descr ""))
+  (lib (name "L_6045")(type "KiCad")(uri "${KIPRJMOD}/symbols and footprints.pretty/L_6045/L_6045.kicad_sym")(options "")(descr ""))
+  (lib (name "USB3300-EZK-TR")(type "KiCad")(uri "${KIPRJMOD}/symbols and footprints.pretty/USB3300-EZK-TR/USB3300-EZK-TR.kicad_sym")(options "")(descr ""))
 )

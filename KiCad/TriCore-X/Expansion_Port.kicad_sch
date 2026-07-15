@@ -21396,7 +21396,7 @@
 	)
 	(symbol
 		(lib_id "ESD224DQAR:ESD224DQAR")
-		(at 466.09 138.43 0)
+		(at 447.04 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21405,7 +21405,7 @@
 		(fields_autoplaced yes)
 		(uuid "96d68e37-d90d-4b15-b928-c444b0611fa4")
 		(property "Reference" "D3"
-			(at 478.79 130.81 0)
+			(at 459.74 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21413,7 +21413,7 @@
 			)
 		)
 		(property "Value" "ESD224DQAR"
-			(at 478.79 133.35 0)
+			(at 459.74 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21421,7 +21421,7 @@
 			)
 		)
 		(property "Footprint" "ESD224DQAR:USON-10_L2.5-W1.0-P0.50-BL"
-			(at 478.79 156.21 0)
+			(at 459.74 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21430,7 +21430,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 466.09 138.43 0)
+			(at 447.04 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21439,7 +21439,7 @@
 			)
 		)
 		(property "Description" "ESD224DQAR"
-			(at 466.09 138.43 0)
+			(at 447.04 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21448,7 +21448,7 @@
 			)
 		)
 		(property "Manufacturer" "TI(德州仪器)"
-			(at 478.79 158.75 0)
+			(at 459.74 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21457,7 +21457,7 @@
 			)
 		)
 		(property "LCSC Part" "C1981316"
-			(at 478.79 161.29 0)
+			(at 459.74 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)

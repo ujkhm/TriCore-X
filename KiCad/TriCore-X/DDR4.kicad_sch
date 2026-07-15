@@ -16199,7 +16199,7 @@
 		)
 		(uuid "081fd378-49e4-4201-a1a5-87d99614b6bf")
 	)
-	(label "DDR_DQS1N_B"
+	(label "DDR_DQS1_B_N"
 		(at 181.61 167.64 180)
 		(effects
 			(font
@@ -16229,7 +16229,7 @@
 		)
 		(uuid "0d326cb3-6c48-4bcc-855b-b956ed9b2133")
 	)
-	(label "DDR_CLKN_A"
+	(label "DDR_CLK_A_N"
 		(at 237.49 111.76 0)
 		(effects
 			(font
@@ -16259,7 +16259,7 @@
 		)
 		(uuid "142a901f-1d11-4196-aab7-fae24d63698e")
 	)
-	(label "DDR_DQS0P_B"
+	(label "DDR_DQS0_B_P"
 		(at 181.61 93.98 180)
 		(effects
 			(font
@@ -16269,7 +16269,7 @@
 		)
 		(uuid "16c8f967-d9b2-46c9-afa3-e9ca1c59ce91")
 	)
-	(label "DDR_DQS1N_B"
+	(label "DDR_DQS1_B_N"
 		(at 96.52 182.88 0)
 		(effects
 			(font
@@ -16299,7 +16299,7 @@
 		)
 		(uuid "1c50c7aa-2651-42fe-9674-07148de707b8")
 	)
-	(label "DDR_DQS0N_A"
+	(label "DDR_DQS0_A_N"
 		(at 181.61 60.96 180)
 		(effects
 			(font
@@ -16309,7 +16309,7 @@
 		)
 		(uuid "1d39311e-987a-420a-ae8e-8f637c6579e2")
 	)
-	(label "DDR_DQS1P_A"
+	(label "DDR_DQS1_A_P"
 		(at 95.25 72.39 0)
 		(effects
 			(font
@@ -16339,7 +16339,7 @@
 		)
 		(uuid "20bd0113-b40a-440a-b6c4-612ab263428b")
 	)
-	(label "DDR_DQS0N_B"
+	(label "DDR_DQS0_B_N"
 		(at 181.61 96.52 180)
 		(effects
 			(font
@@ -16389,7 +16389,7 @@
 		)
 		(uuid "2680eec0-38d6-4b00-a103-0de03398a4ee")
 	)
-	(label "DDR_DQS1N_A"
+	(label "DDR_DQS1_A_N"
 		(at 95.25 74.93 0)
 		(effects
 			(font
@@ -16449,7 +16449,7 @@
 		)
 		(uuid "316db1da-0d3c-41ec-8bc4-98154da48981")
 	)
-	(label "DDR_CLKN_B"
+	(label "DDR_CLK_B_N"
 		(at 237.49 63.5 0)
 		(effects
 			(font
@@ -16479,7 +16479,7 @@
 		)
 		(uuid "355c56d7-bb2d-4f67-8837-198f0fa28fd9")
 	)
-	(label "DDR_CLKP_A"
+	(label "DDR_CLK_A_P"
 		(at 54.61 36.83 180)
 		(effects
 			(font
@@ -16579,7 +16579,7 @@
 		)
 		(uuid "4b114c87-ba88-48d2-b76e-edc1b72dd195")
 	)
-	(label "DDR_DQS1P_B"
+	(label "DDR_DQS1_B_P"
 		(at 181.61 165.1 180)
 		(effects
 			(font
@@ -16659,7 +16659,7 @@
 		)
 		(uuid "5e790558-a4c9-4acd-a3da-621160da0a2d")
 	)
-	(label "DDR_DQS1P_B"
+	(label "DDR_DQS1_B_P"
 		(at 96.52 180.34 0)
 		(effects
 			(font
@@ -16679,7 +16679,7 @@
 		)
 		(uuid "6600219d-5460-4bd8-a170-a3b7aab35add")
 	)
-	(label "DDR_DQS0P_A"
+	(label "DDR_DQS0_A_P"
 		(at 54.61 72.39 180)
 		(effects
 			(font
@@ -16689,7 +16689,7 @@
 		)
 		(uuid "66c64b5a-e96b-408e-99d3-0b152292722c")
 	)
-	(label "DDR_CLKP_B"
+	(label "DDR_CLK_B_P"
 		(at 55.88 144.78 180)
 		(effects
 			(font
@@ -16699,7 +16699,7 @@
 		)
 		(uuid "68df90d3-e08a-4764-8628-0973bece17ea")
 	)
-	(label "DDR_DQS0P_A"
+	(label "DDR_DQS0_A_P"
 		(at 181.61 58.42 180)
 		(effects
 			(font
@@ -16709,7 +16709,7 @@
 		)
 		(uuid "6b2a0e47-ee19-4c0d-a1ff-29eb7d84f359")
 	)
-	(label "DDR_CLKP_A"
+	(label "DDR_CLK_A_P"
 		(at 237.49 109.22 0)
 		(effects
 			(font
@@ -16799,7 +16799,7 @@
 		)
 		(uuid "7f6e4f3d-d56c-4a24-b652-26918ad43ca5")
 	)
-	(label "DDR_DQS1P_A"
+	(label "DDR_DQS1_A_P"
 		(at 181.61 129.54 180)
 		(effects
 			(font
@@ -16919,7 +16919,7 @@
 		)
 		(uuid "9c07981f-6f45-4673-be18-31fcc8473005")
 	)
-	(label "DDR_DQS0N_A"
+	(label "DDR_DQS0_A_N"
 		(at 54.61 74.93 180)
 		(effects
 			(font
@@ -16939,7 +16939,7 @@
 		)
 		(uuid "a20601a7-8143-46d5-a200-38ad9c4dab5c")
 	)
-	(label "DDR_DQS0N_B"
+	(label "DDR_DQS0_B_N"
 		(at 55.88 182.88 180)
 		(effects
 			(font
@@ -17049,7 +17049,7 @@
 		)
 		(uuid "b2c19636-cee1-4a7b-a053-7862df719d3d")
 	)
-	(label "DDR_CLKN_B"
+	(label "DDR_CLK_B_N"
 		(at 55.88 147.32 180)
 		(effects
 			(font
@@ -17159,7 +17159,7 @@
 		)
 		(uuid "cc654591-c0fe-4a6c-b02d-74ece1a50a4d")
 	)
-	(label "DDR_CLKN_A"
+	(label "DDR_CLK_A_N"
 		(at 54.61 39.37 180)
 		(effects
 			(font
@@ -17259,7 +17259,7 @@
 		)
 		(uuid "d9b6217b-bcaf-4de3-a7e1-212dd33356ca")
 	)
-	(label "DDR_DQS0P_B"
+	(label "DDR_DQS0_B_P"
 		(at 55.88 180.34 180)
 		(effects
 			(font
@@ -17349,7 +17349,7 @@
 		)
 		(uuid "e3286dcc-89c2-4401-8332-e106964422e1")
 	)
-	(label "DDR_CLKP_B"
+	(label "DDR_CLK_B_P"
 		(at 237.49 35.56 0)
 		(effects
 			(font
@@ -17389,7 +17389,7 @@
 		)
 		(uuid "eab5d053-63dd-4129-b02a-fabb4249ade0")
 	)
-	(label "DDR_DQS1N_A"
+	(label "DDR_DQS1_A_N"
 		(at 181.61 132.08 180)
 		(effects
 			(font
