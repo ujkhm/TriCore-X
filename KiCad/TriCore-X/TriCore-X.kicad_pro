@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.7,
-          "height": 1.5,
-          "width": 2.3
+          "drill": 3.3,
+          "height": 3.3,
+          "width": 3.3
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -70,15 +70,15 @@
       ],
       "drc_exclusions": [
         [
+          "lib_footprint_mismatch|105780000|78915000|f57152c7-64ff-4333-a78b-bea5ae243a92|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
           "lib_footprint_mismatch|123125000|128875000|41f41c07-c4c3-4f9d-ab6e-9bc1dc7c4379|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
           "lib_footprint_mismatch|147250000|133750000|2a71eaa6-f939-4a5b-9a1e-876460ff464c|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_overlap|153778200|135260354|5233596f-9059-4f58-b2a5-21ab333e83e4|7162f973-09f6-4269-a981-2bce8d11f428",
           ""
         ]
       ],
@@ -150,7 +150,7 @@
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
+        "min_hole_clearance": 0.05,
         "min_hole_to_hole": 0.09,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
@@ -672,11 +672,7 @@
     ],
     [
       "7aec3465-79cd-4dd7-b3bd-c0d6af68e150",
-      "RK3568B2"
-    ],
-    [
-      "45137173-f1ef-400b-ac8f-02414908b40e",
-      "DDR4"
+      "MPU"
     ],
     [
       "61906021-8f9a-44c1-a3fd-cf11455c89ec",

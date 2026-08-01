@@ -1,0 +1,219 @@
+(kicad_symbol_lib
+  (version 20211014)
+  (generator https://github.com/tangsangsimida/EasyKiConverter)
+  (symbol "EA3059"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "U"
+      (id 0)
+      (at 11.43 7.62 0)
+      (effects (font (size 1.27 1.27) (thickness 0) ) )
+    )
+    (property
+      "Value"
+      "EA3059"
+      (id 1)
+      (at 11.43 -35.56 0)
+      (effects (font (size 1.27 1.27) (thickness 0) ) )
+    )
+    (property
+      "Footprint"
+      "EA3059QDR:VQFN-24_L4.0-W4.0-P0.50-TL-EP2.5"
+      (id 2)
+      (at 11.43 -38.10 0)
+      (effects (font (size 1.27 1.27) (thickness 0) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/PMIC-AC-DC-Converters_EA3059_C111586.html"
+      (id 3)
+      (at 11.43 -40.64 0)
+      (effects (font (size 1.27 1.27) (thickness 0) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "everanalog(申风)"
+      (id 4)
+      (at 11.43 -43.18 0)
+      (effects (font (size 1.27 1.27) (thickness 0) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C111586"
+      (id 5)
+      (at 11.43 -45.72 0)
+      (effects (font (size 1.27 1.27) (thickness 0) ) hide)
+    )
+    (property
+      "ki_description"
+      "EA3059"
+      (id 6)
+      (at 11.43 -48.26 0)
+      (effects (font (size 1.27 1.27) (thickness 0) ) hide)
+    )
+    (rectangle
+      (start 2.54 2.54)
+      (end 20.32 -33.02)
+      (stroke (width 0.254) (type default))
+      (fill (type none))
+    )
+    (circle
+      (center 3.81 1.27)
+      (radius 0.38)
+      (stroke (width 0.254) (type default))
+      (fill (type none))
+    )
+    (pin unspecified line
+      (at 0.00 0.00 0)
+      (length 2.54)
+      (name "GND3" (effects (font (size 1.27 1.27) (thickness 0) )))
+      (number "1" (effects (font (size 1.27 1.27) (thickness 0) )))
+    )
+    (pin unspecified line
+      (at 0.00 -2.54 0)
+      (length 2.54)
+      (name "FB3" (effects (font (size 1.27 1.27) (thickness 0) )))
+      (number "2" (effects (font (size 1.27 1.27) (thickness 0) )))
+    )
+    (pin unspecified line
+      (at 0.00 -5.08 0)
+      (length 2.54)
+      (name "VCC" (effects (font (size 1.27 1.27) (thickness 0) )))
+      (number "3" (effects (font (size 1.27 1.27) (thickness 0) )))
+    )
+    (pin unspecified line
+      (at 0.00 -7.62 0)
+      (length 2.54)
+      (name "AGND" (effects (font (size 1.27 1.27) (thickness 0) )))
+      (number "4" (effects (font (size 1.27 1.27) (thickness 0) )))
+    )
+    (pin unspecified line
+      (at 0.00 -10.16 0)
+      (length 2.54)
+      (name "FB2" (effects (font (size 1.27 1.27) (thickness 0) )))
+      (number "5" (effects (font (size 1.27 1.27) (thickness 0) )))
+    )
+    (pin unspecified line
+      (at 0.00 -12.70 0)
+      (length 2.54)
+      (name "GND2" (effects (font (size 1.27 1.27) (thickness 0) )))
+      (number "6" (effects (font (size 1.27 1.27) (thickness 0) )))
+    )
+    (pin unspecified line
+      (at 0.00 -15.24 0)
+      (length 2.54)
+      (name "LX2" (effects (font (size 1.27 1.27) (thickness 0) )))
+      (number "7" (effects (font (size 1.27 1.27) (thickness 0) )))
+    )
+    (pin unspecified line
+      (at 0.00 -17.78 0)
+      (length 2.54)
+      (name "VIN2" (effects (font (size 1.27 1.27) (thickness 0) )))
+      (number "8" (effects (font (size 1.27 1.27) (thickness 0) )))
+    )
+    (pin unspecified line
+      (at 0.00 -20.32 0)
+      (length 2.54)
+      (name "EN2" (effects (font (size 1.27 1.27) (thickness 0) )))
+      (number "9" (effects (font (size 1.27 1.27) (thickness 0) )))
+    )
+    (pin unspecified line
+      (at 0.00 -22.86 0)
+      (length 2.54)
+      (name "EN1" (effects (font (size 1.27 1.27) (thickness 0) )))
+      (number "10" (effects (font (size 1.27 1.27) (thickness 0) )))
+    )
+    (pin unspecified line
+      (at 0.00 -25.40 0)
+      (length 2.54)
+      (name "VIN1" (effects (font (size 1.27 1.27) (thickness 0) )))
+      (number "11" (effects (font (size 1.27 1.27) (thickness 0) )))
+    )
+    (pin unspecified line
+      (at 0.00 -27.94 0)
+      (length 2.54)
+      (name "LX1" (effects (font (size 1.27 1.27) (thickness 0) )))
+      (number "12" (effects (font (size 1.27 1.27) (thickness 0) )))
+    )
+    (pin unspecified line
+      (at 22.86 -27.94 180)
+      (length 2.54)
+      (name "GND1" (effects (font (size 1.27 1.27) (thickness 0) )))
+      (number "13" (effects (font (size 1.27 1.27) (thickness 0) )))
+    )
+    (pin unspecified line
+      (at 22.86 -25.40 180)
+      (length 2.54)
+      (name "FB1" (effects (font (size 1.27 1.27) (thickness 0) )))
+      (number "14" (effects (font (size 1.27 1.27) (thickness 0) )))
+    )
+    (pin unspecified line
+      (at 22.86 -22.86 180)
+      (length 2.54)
+      (name "NC" (effects (font (size 1.27 1.27) (thickness 0) )))
+      (number "15" (effects (font (size 1.27 1.27) (thickness 0) )))
+    )
+    (pin unspecified line
+      (at 22.86 -20.32 180)
+      (length 2.54)
+      (name "NC" (effects (font (size 1.27 1.27) (thickness 0) )))
+      (number "16" (effects (font (size 1.27 1.27) (thickness 0) )))
+    )
+    (pin unspecified line
+      (at 22.86 -17.78 180)
+      (length 2.54)
+      (name "FB4" (effects (font (size 1.27 1.27) (thickness 0) )))
+      (number "17" (effects (font (size 1.27 1.27) (thickness 0) )))
+    )
+    (pin unspecified line
+      (at 22.86 -15.24 180)
+      (length 2.54)
+      (name "GND4" (effects (font (size 1.27 1.27) (thickness 0) )))
+      (number "18" (effects (font (size 1.27 1.27) (thickness 0) )))
+    )
+    (pin unspecified line
+      (at 22.86 -12.70 180)
+      (length 2.54)
+      (name "LX4" (effects (font (size 1.27 1.27) (thickness 0) )))
+      (number "19" (effects (font (size 1.27 1.27) (thickness 0) )))
+    )
+    (pin unspecified line
+      (at 22.86 -10.16 180)
+      (length 2.54)
+      (name "VIN4" (effects (font (size 1.27 1.27) (thickness 0) )))
+      (number "20" (effects (font (size 1.27 1.27) (thickness 0) )))
+    )
+    (pin unspecified line
+      (at 22.86 -7.62 180)
+      (length 2.54)
+      (name "EN4" (effects (font (size 1.27 1.27) (thickness 0) )))
+      (number "21" (effects (font (size 1.27 1.27) (thickness 0) )))
+    )
+    (pin unspecified line
+      (at 22.86 -5.08 180)
+      (length 2.54)
+      (name "EN3" (effects (font (size 1.27 1.27) (thickness 0) )))
+      (number "22" (effects (font (size 1.27 1.27) (thickness 0) )))
+    )
+    (pin unspecified line
+      (at 22.86 -2.54 180)
+      (length 2.54)
+      (name "VIN3" (effects (font (size 1.27 1.27) (thickness 0) )))
+      (number "23" (effects (font (size 1.27 1.27) (thickness 0) )))
+    )
+    (pin unspecified line
+      (at 22.86 0.00 180)
+      (length 2.54)
+      (name "LX3" (effects (font (size 1.27 1.27) (thickness 0) )))
+      (number "24" (effects (font (size 1.27 1.27) (thickness 0) )))
+    )
+    (pin unspecified line
+      (at 22.86 -30.48 180)
+      (length 2.54)
+      (name "EP" (effects (font (size 1.27 1.27) (thickness 0) )))
+      (number "25" (effects (font (size 1.27 1.27) (thickness 0) )))
+    )
+  )
+)

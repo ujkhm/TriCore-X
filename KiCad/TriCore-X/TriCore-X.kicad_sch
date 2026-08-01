@@ -90,48 +90,6 @@
 		)
 	)
 	(sheet
-		(at 15.24 66.04)
-		(size 31.75 15.24)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "45137173-f1ef-400b-ac8f-02414908b40e")
-		(property "Sheetname" "DDR4"
-			(at 15.24 65.3284 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "DDR4.kicad_sch"
-			(at 15.24 81.8646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "TriCore-X"
-				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c"
-					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 15.24 90.17)
 		(size 31.75 15.24)
 		(exclude_from_sim no)
@@ -189,7 +147,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "7aec3465-79cd-4dd7-b3bd-c0d6af68e150")
-		(property "Sheetname" "RK3568B2"
+		(property "Sheetname" "MPU"
 			(at 15.24 41.1984 0)
 			(effects
 				(font
@@ -198,7 +156,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "RK3568B2.kicad_sch"
+		(property "Sheetfile" "MPU.kicad_sch"
 			(at 15.24 57.7346 0)
 			(effects
 				(font
@@ -216,7 +174,7 @@
 		)
 	)
 	(sheet
-		(at 54.61 41.91)
+		(at 15.24 66.04)
 		(size 31.75 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -232,7 +190,7 @@
 		)
 		(uuid "947b9af7-0b08-456b-ad03-a4dd3c7b9c00")
 		(property "Sheetname" "STM32"
-			(at 54.61 41.1984 0)
+			(at 15.24 65.3284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -241,7 +199,7 @@
 			)
 		)
 		(property "Sheetfile" "STM32.kicad_sch"
-			(at 54.61 57.7346 0)
+			(at 15.24 81.8646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
