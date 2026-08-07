@@ -1,0 +1,104 @@
+(kicad_symbol_lib
+  (version 20211014)
+  (generator https://github.com/tangsangsimida/EasyKiConverter)
+  (symbol "SY8843QWC"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "U"
+      (id 0)
+      (at 8.89 7.62 0)
+      (effects (font (size 1.27 1.27) (thickness 0) ) )
+    )
+    (property
+      "Value"
+      "SY8843QWC"
+      (id 1)
+      (at 8.89 -15.24 0)
+      (effects (font (size 1.27 1.27) (thickness 0) ) )
+    )
+    (property
+      "Footprint"
+      "SY8843QWC:QFN-7_L1.5-W1.5-P0.45-BL_SILERGY_SY8842QWC"
+      (id 2)
+      (at 8.89 -17.78 0)
+      (effects (font (size 1.27 1.27) (thickness 0) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "Silergy(矽力杰)"
+      (id 4)
+      (at 8.89 -20.32 0)
+      (effects (font (size 1.27 1.27) (thickness 0) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C3151906"
+      (id 5)
+      (at 8.89 -22.86 0)
+      (effects (font (size 1.27 1.27) (thickness 0) ) hide)
+    )
+    (property
+      "ki_description"
+      "SY8843QWC"
+      (id 6)
+      (at 8.89 -25.40 0)
+      (effects (font (size 1.27 1.27) (thickness 0) ) hide)
+    )
+    (rectangle
+      (start 2.54 2.54)
+      (end 15.24 -12.70)
+      (stroke (width 0.254) (type default))
+      (fill (type none))
+    )
+    (circle
+      (center 3.81 1.27)
+      (radius 0.38)
+      (stroke (width 0.254) (type default))
+      (fill (type none))
+    )
+    (pin unspecified line
+      (at 17.78 -7.62 180)
+      (length 2.54)
+      (name "FB" (effects (font (size 1.27 1.27) (thickness 0) )))
+      (number "1" (effects (font (size 1.27 1.27) (thickness 0) )))
+    )
+    (pin unspecified line
+      (at 17.78 -2.54 180)
+      (length 2.54)
+      (name "OUT" (effects (font (size 1.27 1.27) (thickness 0) )))
+      (number "2" (effects (font (size 1.27 1.27) (thickness 0) )))
+    )
+    (pin unspecified line
+      (at 0.00 -7.62 0)
+      (length 2.54)
+      (name "PG" (effects (font (size 1.27 1.27) (thickness 0) )))
+      (number "3" (effects (font (size 1.27 1.27) (thickness 0) )))
+    )
+    (pin unspecified line
+      (at 0.00 -10.16 0)
+      (length 2.54)
+      (name "EN" (effects (font (size 1.27 1.27) (thickness 0) )))
+      (number "4" (effects (font (size 1.27 1.27) (thickness 0) )))
+    )
+    (pin unspecified line
+      (at 0.00 0.00 0)
+      (length 2.54)
+      (name "IN" (effects (font (size 1.27 1.27) (thickness 0) )))
+      (number "5" (effects (font (size 1.27 1.27) (thickness 0) )))
+    )
+    (pin unspecified line
+      (at 17.78 0.00 180)
+      (length 2.54)
+      (name "LX" (effects (font (size 1.27 1.27) (thickness 0) )))
+      (number "6" (effects (font (size 1.27 1.27) (thickness 0) )))
+    )
+    (pin unspecified line
+      (at 17.78 -10.16 180)
+      (length 2.54)
+      (name "GND" (effects (font (size 1.27 1.27) (thickness 0) )))
+      (number "7" (effects (font (size 1.27 1.27) (thickness 0) )))
+    )
+  )
+)

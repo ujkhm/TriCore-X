@@ -1,0 +1,90 @@
+(kicad_symbol_lib
+  (version 20211014)
+  (generator https://github.com/tangsangsimida/EasyKiConverter)
+  (symbol "FWP252012P-1R0ML"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "L"
+      (id 0)
+      (at 5.08 7.62 0)
+      (effects (font (size 1.27 1.27) (thickness 0) ) )
+    )
+    (property
+      "Value"
+      "FWP252012P-1R0ML"
+      (id 1)
+      (at 5.08 -7.62 0)
+      (effects (font (size 1.27 1.27) (thickness 0) ) )
+    )
+    (property
+      "Footprint"
+      "FWP252012P-1R0ML:IND-SMD_L2.5-W2.0_YXMBL252010P"
+      (id 2)
+      (at 5.08 -10.16 0)
+      (effects (font (size 1.27 1.27) (thickness 0) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "cjiang(长江微电)"
+      (id 4)
+      (at 5.08 -12.70 0)
+      (effects (font (size 1.27 1.27) (thickness 0) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C5179444"
+      (id 5)
+      (at 5.08 -15.24 0)
+      (effects (font (size 1.27 1.27) (thickness 0) ) hide)
+    )
+    (property
+      "ki_description"
+      "FWP252012P-1R0ML"
+      (id 6)
+      (at 5.08 -17.78 0)
+      (effects (font (size 1.27 1.27) (thickness 0) ) hide)
+    )
+    (arc
+      (start 1.02 0.01)
+      (mid 2.04 1.02)
+      (end 3.05 -0.01)
+      (stroke (width 0.000) (type default))
+      (fill (type none))
+    )
+    (arc
+      (start 3.05 0.01)
+      (mid 4.07 1.02)
+      (end 5.08 -0.01)
+      (stroke (width 0.000) (type default))
+      (fill (type none))
+    )
+    (arc
+      (start 7.11 0.01)
+      (mid 8.13 1.02)
+      (end 9.14 -0.01)
+      (stroke (width 0.000) (type default))
+      (fill (type none))
+    )
+    (arc
+      (start 5.08 0.01)
+      (mid 6.10 1.02)
+      (end 7.11 -0.01)
+      (stroke (width 0.000) (type default))
+      (fill (type none))
+    )
+    (pin unspecified line
+      (at 10.16 0.00 180)
+      (length 1.02)
+      (name "2" (effects (font (size 1.27 1.27) (thickness 0) )))
+      (number "2" (effects (font (size 1.27 1.27) (thickness 0) )))
+    )
+    (pin unspecified line
+      (at 0.00 0.00 0)
+      (length 1.02)
+      (name "1" (effects (font (size 1.27 1.27) (thickness 0) )))
+      (number "1" (effects (font (size 1.27 1.27) (thickness 0) )))
+    )
+  )
+)
