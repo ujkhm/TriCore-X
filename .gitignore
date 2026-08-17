@@ -1,0 +1,19 @@
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Editor
+.vscode/ipch/
+.vscode/.cmaketools/
+
+# KiCad local / generated (also listed under KiCad/.gitignore)
+fp-info-cache
+_autosave-*
+*-backups/
+*.kicad_prl
+*.lck
+\#auto_saved_files\#
+*.bak
+*.kicad_sch-bak
+*.csv

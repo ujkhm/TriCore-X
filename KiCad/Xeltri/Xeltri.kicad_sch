@@ -40,7 +40,7 @@
 			)
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c"
 					(page "7")
 				)
@@ -82,7 +82,7 @@
 			)
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c"
 					(page "2")
 				)
@@ -124,7 +124,7 @@
 			)
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c"
 					(page "5")
 				)
@@ -166,7 +166,7 @@
 			)
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c"
 					(page "3")
 				)
@@ -208,7 +208,7 @@
 			)
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c"
 					(page "8")
 				)
@@ -250,7 +250,7 @@
 			)
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c"
 					(page "6")
 				)

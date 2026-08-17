@@ -1,6 +1,7 @@
-# TriCore-X
+# Xeltri
 
-> **TriCore-X : A heterogeneous development board.**
+> **Xeltri : A heterogeneous development board.**
+> X = mixed domains, el = electronics, tri = three cores (MPU + MCU + FPGA).
 > This is a board that integrates FPGA, MPU and MCU into a single system.
 
 ---

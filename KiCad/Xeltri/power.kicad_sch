@@ -5328,7 +5328,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 101.6) (xy 125.73 101.6)
+			(xy 92.71 101.6) (xy 105.41 101.6)
 		)
 		(stroke
 			(width 0)
@@ -5898,7 +5898,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 54.61) (xy 125.73 54.61)
+			(xy 92.71 54.61) (xy 106.68 54.61)
 		)
 		(stroke
 			(width 0)
@@ -6488,6 +6488,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 101.6) (xy 125.73 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c51a4194-ef42-42e8-bbdc-f86d9e2e4760")
+	)
+	(wire
+		(pts
 			(xy 88.9 82.55) (xy 95.25 82.55)
 		)
 		(stroke
@@ -6865,6 +6875,16 @@
 			(type default)
 		)
 		(uuid "fc6124b8-b010-4400-86cc-3a363c914d52")
+	)
+	(wire
+		(pts
+			(xy 114.3 54.61) (xy 125.73 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc8f1761-5c15-4edc-b3ae-0ddfd72000da")
 	)
 	(wire
 		(pts
@@ -7362,7 +7382,7 @@
 			(uuid "51545e5e-1407-4ead-a228-0a34f87e245c")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "C33")
 					(unit 1)
@@ -7428,7 +7448,7 @@
 			(uuid "56a483b0-b02c-4a51-a222-4eccc4e69188")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "#PWR047")
 					(unit 1)
@@ -7564,7 +7584,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 45.4152 123.19 0)
 			(effects
 				(font
@@ -7598,7 +7618,7 @@
 			(uuid "a541ba75-a555-4ba0-b764-2a41f32fa101")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "C11")
 					(unit 1)
@@ -7668,7 +7688,7 @@
 			(uuid "f9b15b88-f052-49f4-8165-c645c18c0e56")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "C39")
 					(unit 1)
@@ -7738,7 +7758,7 @@
 			(uuid "3b23d5d4-40d8-4827-ba0c-7763a354d49e")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "R46")
 					(unit 1)
@@ -7817,7 +7837,7 @@
 			(uuid "86f130c9-c76e-44c2-b424-72baaeff5e05")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "D7")
 					(unit 1)
@@ -7883,7 +7903,7 @@
 			(uuid "308040dc-c580-4e7e-9c1a-0c772bce8def")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "#PWR027")
 					(unit 1)
@@ -7949,7 +7969,7 @@
 			(uuid "994f1d77-373f-4e6e-a7ce-2136650a6e68")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "#PWR046")
 					(unit 1)
@@ -8015,7 +8035,7 @@
 			(uuid "c51393be-7123-4d0e-b3d6-f5782c6941d3")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "#PWR051")
 					(unit 1)
@@ -8085,7 +8105,7 @@
 			(uuid "e51967aa-ce38-4f13-aaff-54e03df6a3f7")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "R3")
 					(unit 1)
@@ -8186,7 +8206,7 @@
 			(uuid "92e4d4e1-10d0-4649-95f7-666a72987f39")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "U9")
 					(unit 1)
@@ -8222,7 +8242,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 45.4152 76.2 0)
 			(effects
 				(font
@@ -8324,7 +8344,7 @@
 			(uuid "3872502e-2b3a-4fab-a97e-850bbb2b6200")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "R10")
 					(unit 1)
@@ -8391,7 +8411,7 @@
 			(uuid "35e2526f-0eec-456a-ac83-8039f8515c74")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "#PWR085")
 					(unit 1)
@@ -8461,7 +8481,7 @@
 			(uuid "73540ee8-30ba-4a74-8efa-d252e7d7025d")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "R57")
 					(unit 1)
@@ -8597,7 +8617,7 @@
 			(uuid "fed4e4ac-a6b3-42c2-838d-91edae70c8b5")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "C15")
 					(unit 1)
@@ -8667,7 +8687,7 @@
 			(uuid "33853aa7-09a6-4425-af89-de4c46e16edd")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "R12")
 					(unit 1)
@@ -8737,7 +8757,7 @@
 			(uuid "365d43c0-ae1f-4166-bd5a-c7b699cbbf4c")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "R38")
 					(unit 1)
@@ -8803,7 +8823,7 @@
 			(uuid "b3d36bda-f1b7-4b65-ada0-64aae82b4bf2")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "#PWR096")
 					(unit 1)
@@ -8937,7 +8957,7 @@
 			(uuid "bde800f8-5123-4b98-9fa0-c2065f71d495")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "R51")
 					(unit 1)
@@ -9003,7 +9023,7 @@
 			(uuid "e0bcfff0-28da-4cd1-9bcc-c05e50fcdb95")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "#PWR028")
 					(unit 1)
@@ -9069,7 +9089,7 @@
 			(uuid "2dea96c5-2cfb-41ea-b603-40ed47258e14")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "#PWR092")
 					(unit 1)
@@ -9139,7 +9159,7 @@
 			(uuid "74f4bf16-da12-46f3-9d72-0f261baf72ee")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "R41")
 					(unit 1)
@@ -9264,7 +9284,7 @@
 			(uuid "aa33e824-e547-4c91-bdb9-60e58b646f7f")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "U15")
 					(unit 1)
@@ -9332,7 +9352,7 @@
 			(uuid "8ee7e60f-e844-4430-9092-3cca7032ed4e")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "F2")
 					(unit 1)
@@ -9398,7 +9418,7 @@
 			(uuid "5819f183-7acc-4b04-9605-348e817b7c74")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "#PWR026")
 					(unit 1)
@@ -9464,7 +9484,7 @@
 			(uuid "a0db5cbb-6841-4ce4-9ab2-f701562af07c")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "#PWR050")
 					(unit 1)
@@ -9532,7 +9552,7 @@
 			(uuid "134de0b3-95db-4ccf-83b3-ac850bbebe0a")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "R52")
 					(unit 1)
@@ -9598,7 +9618,7 @@
 			(uuid "d6f9da47-1c5e-459f-93d2-d24696044eb3")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "#PWR052")
 					(unit 1)
@@ -9933,7 +9953,7 @@
 			(uuid "1388eb2d-d4df-4c98-9670-192d3962944b")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "U4")
 					(unit 1)
@@ -9999,7 +10019,7 @@
 			(uuid "bb283ef1-ab11-4f0a-ab62-ef8b7bed5f29")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "#PWR097")
 					(unit 1)
@@ -10065,7 +10085,7 @@
 			(uuid "c60c1333-00b6-4bdd-8e36-f9920f63b022")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "#PWR057")
 					(unit 1)
@@ -10135,7 +10155,7 @@
 			(uuid "b5c36bc3-9e81-46a3-aa99-89c3443075ae")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "R39")
 					(unit 1)
@@ -10201,7 +10221,7 @@
 			(uuid "2e70aff8-cf0f-4786-9d2c-f63344b90e7b")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "#PWR075")
 					(unit 1)
@@ -10267,7 +10287,7 @@
 			(uuid "e7b7d648-fbe9-49ac-a8d5-fad57faef2a6")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "#PWR069")
 					(unit 1)
@@ -10335,7 +10355,7 @@
 			(uuid "fd730b39-9483-4ebc-b3ee-2a7c61c3c27d")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "R50")
 					(unit 1)
@@ -10496,7 +10516,7 @@
 			(uuid "d13ac8e2-e1f5-4e33-9648-ea3121ce999d")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "#PWR023")
 					(unit 1)
@@ -10652,7 +10672,7 @@
 			(uuid "e80dde6b-2318-4d48-9595-53f691e6d02b")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "R43")
 					(unit 1)
@@ -10722,7 +10742,7 @@
 			(uuid "3cbb3ad9-7e35-492c-bbe4-0ebd26758b0f")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "C37")
 					(unit 1)
@@ -10788,7 +10808,7 @@
 			(uuid "16a9a164-4c70-4467-84d4-f20febafac1a")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "#PWR021")
 					(unit 1)
@@ -10858,7 +10878,7 @@
 			(uuid "7a6a6417-a743-4ba2-959c-285653b04109")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "R8")
 					(unit 1)
@@ -10928,7 +10948,7 @@
 			(uuid "28e80c75-f587-4e01-8ef0-78ff2b7596fc")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "R9")
 					(unit 1)
@@ -10938,7 +10958,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 92.71 58.42 0)
+		(at 92.71 58.42 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10952,7 +10972,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "100nF"
@@ -10961,11 +10981,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 93.6752 62.23 0)
+			(at 91.7448 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10998,7 +11018,7 @@
 			(uuid "d03cb96f-12c5-49ca-b4d5-eff1e13b4e1e")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "C4")
 					(unit 1)
@@ -11068,7 +11088,7 @@
 			(uuid "9d27d51c-1c72-4c0f-adc1-ea2741630b68")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "R34")
 					(unit 1)
@@ -11138,7 +11158,7 @@
 			(uuid "6c39990f-01f8-4aa2-8d15-57731941c9d5")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "R7")
 					(unit 1)
@@ -11206,7 +11226,7 @@
 			(uuid "df2c022c-61d4-4c26-8f67-b42fe08e461f")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "F1")
 					(unit 1)
@@ -11233,7 +11253,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 73.66 120.6499 0)
 			(effects
 				(font
@@ -11242,7 +11262,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 70.8152 123.19 0)
 			(effects
 				(font
@@ -11276,7 +11296,7 @@
 			(uuid "da88eeba-2735-479c-96a5-03661035b5cf")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "C13")
 					(unit 1)
@@ -11346,7 +11366,7 @@
 			(uuid "0572b88c-6a81-47bb-b246-53c3bfbd4e3d")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "C36")
 					(unit 1)
@@ -11412,7 +11432,7 @@
 			(uuid "d2ceebe3-32db-4e49-919b-afec04790855")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "#PWR049")
 					(unit 1)
@@ -11478,7 +11498,7 @@
 			(uuid "a93cea45-9fb9-4e75-921b-fa1b37e5b405")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "#PWR019")
 					(unit 1)
@@ -11548,7 +11568,7 @@
 			(uuid "553873dc-bf51-4a68-a172-541d697635a7")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "C43")
 					(unit 1)
@@ -11614,7 +11634,7 @@
 			(uuid "89ac1376-a1d0-40e9-97c6-53316068aa22")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "#PWR079")
 					(unit 1)
@@ -11680,7 +11700,7 @@
 			(uuid "05ea45c3-d192-4e6d-827e-b76abb54e524")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "#PWR016")
 					(unit 1)
@@ -11747,7 +11767,7 @@
 			(uuid "1cd9ac82-7d21-4f19-9cfc-b10db543acde")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "#PWR084")
 					(unit 1)
@@ -11817,7 +11837,7 @@
 			(uuid "3d5b51a7-a0b2-4e96-91dd-eda1bcf87d95")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "R54")
 					(unit 1)
@@ -11887,7 +11907,7 @@
 			(uuid "4514e981-8de2-4956-8a89-166adfa36411")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "C48")
 					(unit 1)
@@ -12021,7 +12041,7 @@
 			(uuid "8aecff60-f508-43d7-94a8-64972dff73cb")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "#PWR065")
 					(unit 1)
@@ -12091,7 +12111,7 @@
 			(uuid "58bcd23b-a003-4e94-9645-8b090fb1e963")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "R47")
 					(unit 1)
@@ -12157,7 +12177,7 @@
 			(uuid "bf628499-568f-471d-9104-d2d4cf92ebad")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "#PWR061")
 					(unit 1)
@@ -12227,7 +12247,7 @@
 			(uuid "df6c9403-832a-470f-89b2-83414a4fd23e")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "R36")
 					(unit 1)
@@ -12254,7 +12274,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 73.66 73.6599 0)
 			(effects
 				(font
@@ -12263,7 +12283,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 70.8152 76.2 0)
 			(effects
 				(font
@@ -12363,7 +12383,7 @@
 			(uuid "defaa736-36d1-4be2-a7b2-8a27b6dc8f84")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "#PWR076")
 					(unit 1)
@@ -12433,7 +12453,7 @@
 			(uuid "da341c4f-ed6d-44c0-9cc4-a7e42978194f")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "C47")
 					(unit 1)
@@ -12499,7 +12519,7 @@
 			(uuid "02da7fa9-0e98-4410-becd-a72d179127b3")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "#PWR056")
 					(unit 1)
@@ -12600,7 +12620,7 @@
 			(uuid "ac7f93d0-cb50-430c-af81-d05392ebe268")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "U8")
 					(unit 1)
@@ -12666,7 +12686,7 @@
 			(uuid "72695462-e957-433f-a0cd-5be73a4f21cb")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "#PWR054")
 					(unit 1)
@@ -12732,7 +12752,7 @@
 			(uuid "8c63ef81-3206-482a-ae3a-96e70c080e46")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "#PWR074")
 					(unit 1)
@@ -12802,7 +12822,7 @@
 			(uuid "7c0abcf6-8596-4707-9cc8-b90dc055c6d1")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "R32")
 					(unit 1)
@@ -12868,7 +12888,7 @@
 			(uuid "47730720-7864-4bad-bb92-c14433550ee5")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "#PWR072")
 					(unit 1)
@@ -12938,7 +12958,7 @@
 			(uuid "54a473dc-3edb-4bf6-88a2-14ff4d918f79")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "R33")
 					(unit 1)
@@ -13004,7 +13024,7 @@
 			(uuid "e94a5cf9-97b8-4cc4-b0d8-2342f2c3b362")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "#PWR024")
 					(unit 1)
@@ -13140,7 +13160,7 @@
 			(uuid "45a4dc52-6c11-4d72-86b6-e2ce742b4a35")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "R15")
 					(unit 1)
@@ -13206,7 +13226,7 @@
 			(uuid "170f24bc-dc8a-4cbf-b359-394d68004b4a")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "#PWR015")
 					(unit 1)
@@ -13276,7 +13296,7 @@
 			(uuid "510ddd74-5863-47a5-8d04-c77b3d3560d8")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "R42")
 					(unit 1)
@@ -13342,7 +13362,7 @@
 			(uuid "a0a56a2a-b263-4825-b858-76fa314a88fb")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "#PWR058")
 					(unit 1)
@@ -13408,7 +13428,7 @@
 			(uuid "2bbe43b2-98b2-4d29-bb60-bdad2c49acd5")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "#PWR025")
 					(unit 1)
@@ -13494,7 +13514,7 @@
 			(uuid "e5f477d8-4034-4c88-89e6-5e16f5a3e581")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "L4")
 					(unit 1)
@@ -13562,7 +13582,7 @@
 			(uuid "79cf1e48-145a-44ae-b380-9033f076a9ba")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "F3")
 					(unit 1)
@@ -13753,7 +13773,7 @@
 			(uuid "00c1dc16-8461-466e-ad01-a7c93414f85c")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "#PWR091")
 					(unit 1)
@@ -13823,7 +13843,7 @@
 			(uuid "ea427c29-21c7-4e06-b5fa-fd758cda5dfb")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "C38")
 					(unit 1)
@@ -13889,7 +13909,7 @@
 			(uuid "c8c1fc8c-86e9-47b8-ad38-bec6d7a097ef")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "#PWR064")
 					(unit 1)
@@ -13975,7 +13995,7 @@
 			(uuid "bcbff4b1-a97e-4939-a21b-e358c99cbafb")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "L5")
 					(unit 1)
@@ -14041,7 +14061,7 @@
 			(uuid "9abf11bc-2ad4-4b1f-b3c8-b0f2f83ca452")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "#PWR090")
 					(unit 1)
@@ -14181,7 +14201,7 @@
 			(uuid "4323f91f-d2fa-44fa-b9c7-c60035efed8f")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "C34")
 					(unit 1)
@@ -14443,7 +14463,7 @@
 			(uuid "fdb6583f-807c-4bef-85c5-ed0c382a1951")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "R56")
 					(unit 1)
@@ -14509,7 +14529,7 @@
 			(uuid "3a19bb9d-90fa-477b-ad96-a3b86d470303")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "#PWR053")
 					(unit 1)
@@ -14579,7 +14599,7 @@
 			(uuid "e810bc6c-baa9-49f7-8f39-a8e882974289")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "C44")
 					(unit 1)
@@ -14645,7 +14665,7 @@
 			(uuid "b0067cca-9ed5-4861-97c4-48cb81506939")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "#PWR094")
 					(unit 1)
@@ -14751,7 +14771,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 58.1152 76.2 0)
 			(effects
 				(font
@@ -14910,7 +14930,7 @@
 			(uuid "231ea440-0ecc-4743-9ab2-3baf31a46912")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "U16")
 					(unit 1)
@@ -14976,7 +14996,7 @@
 			(uuid "4cb664cb-0f61-49c4-bd1d-04fc00bbb2cf")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "#PWR063")
 					(unit 1)
@@ -15046,7 +15066,7 @@
 			(uuid "1a881fc5-db1f-4c08-9a3a-8ec6bb34e1d2")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "R55")
 					(unit 1)
@@ -15116,7 +15136,7 @@
 			(uuid "a5f1636c-0e8a-489e-9f17-168988f34ee8")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "C32")
 					(unit 1)
@@ -15186,7 +15206,7 @@
 			(uuid "acc68303-c96c-4b3b-9580-877640850d6b")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "R37")
 					(unit 1)
@@ -15256,7 +15276,7 @@
 			(uuid "c590b141-9c47-4629-aa7e-09e1e4c6f612")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "C16")
 					(unit 1)
@@ -15326,7 +15346,7 @@
 			(uuid "1defc83e-ef18-459a-ad2d-a407861ca127")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "C42")
 					(unit 1)
@@ -15392,7 +15412,7 @@
 			(uuid "9a9f70d6-cf44-4f78-be7e-c241f95328ab")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "#PWR071")
 					(unit 1)
@@ -15462,7 +15482,7 @@
 			(uuid "e6aa8eb6-101c-4d83-9893-cb0b0ccddc1c")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "R48")
 					(unit 1)
@@ -15528,7 +15548,7 @@
 			(uuid "6d0013ad-629d-4a49-9e97-8c8f7d8c4725")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "#PWR017")
 					(unit 1)
@@ -15598,7 +15618,7 @@
 			(uuid "a2ff3921-f54e-4ae2-8084-f2cb9b1fe5c7")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "C30")
 					(unit 1)
@@ -15855,9 +15875,77 @@
 			(uuid "5eb890c9-084f-4b7e-95db-2979551a5f86")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 110.49 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e84ac53-c172-415f-b12a-c0a583a22aa3")
+		(property "Reference" "R59"
+			(at 110.49 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 110.49 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 110.49 56.388 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 110.49 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "579c365f-de60-46f8-ac86-925cc5bce5d0")
+		)
+		(pin "2"
+			(uuid "69286f67-c99b-4c12-8c6d-2b746b9cab32")
+		)
+		(instances
+			(project "Xeltri"
+				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
+					(reference "R59")
 					(unit 1)
 				)
 			)
@@ -15921,7 +16009,7 @@
 			(uuid "76b534e2-9dac-4217-ab7a-3f7667ff43ea")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "#PWR055")
 					(unit 1)
@@ -16053,7 +16141,7 @@
 			(uuid "5ec95993-e6ab-4c42-86ba-d2d0b291916a")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "#PWR070")
 					(unit 1)
@@ -16119,7 +16207,7 @@
 			(uuid "f8bb238a-a72c-4ffe-8659-2e208c4afdb8")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "#PWR095")
 					(unit 1)
@@ -16189,7 +16277,7 @@
 			(uuid "a6c68593-8d50-4a5d-8720-a82d9f0427ed")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "R11")
 					(unit 1)
@@ -16257,7 +16345,7 @@
 			(uuid "4ae07513-4c9e-46cf-93eb-191e327c37de")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "R6")
 					(unit 1)
@@ -16323,7 +16411,7 @@
 			(uuid "21a8db88-a2a9-4ef5-b009-6e560a22ccc3")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "#PWR044")
 					(unit 1)
@@ -16393,7 +16481,7 @@
 			(uuid "b00fd41b-b5d6-44cf-9da0-fb48d872bc03")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "C17")
 					(unit 1)
@@ -16463,7 +16551,7 @@
 			(uuid "d8d2ba65-345c-447e-b02d-d965f54ea965")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "R5")
 					(unit 1)
@@ -16530,7 +16618,7 @@
 			(uuid "0e536ac3-616f-433e-85d5-3f98ba4f39fb")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "#PWR086")
 					(unit 1)
@@ -16600,7 +16688,7 @@
 			(uuid "68447ddd-8fe9-489d-b995-3491b5c2c48f")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "R40")
 					(unit 1)
@@ -16670,9 +16758,77 @@
 			(uuid "8cb3cabb-3a73-46cc-9b55-65c373c06be2")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 109.22 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad5fe3b3-1d1f-4984-9963-afa2f728c13e")
+		(property "Reference" "R60"
+			(at 109.22 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 109.22 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 109.22 103.378 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 109.22 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b079490-c486-4725-85d7-38f16e2e790c")
+		)
+		(pin "2"
+			(uuid "b9fd7671-3a6f-4705-b2c9-1dc48362324b")
+		)
+		(instances
+			(project "Xeltri"
+				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
+					(reference "R60")
 					(unit 1)
 				)
 			)
@@ -16854,7 +17010,7 @@
 			(uuid "b39773a3-80fb-485d-a574-fd5ab8762d91")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "L6")
 					(unit 1)
@@ -16924,7 +17080,7 @@
 			(uuid "df706f5b-ae08-476f-bd5d-8e8f761fd133")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "C8")
 					(unit 1)
@@ -17249,7 +17405,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 58.1152 123.19 0)
 			(effects
 				(font
@@ -17283,7 +17439,7 @@
 			(uuid "93a5a5e5-40cb-4cff-bcb5-68bb9b05fdf8")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "C12")
 					(unit 1)
@@ -17384,7 +17540,7 @@
 			(uuid "ea317482-b00a-4ae0-b250-8adbf69031b5")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "U10")
 					(unit 1)
@@ -17454,7 +17610,7 @@
 			(uuid "f90dfb72-56b4-41d9-a1b0-fe4188e7379a")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "R53")
 					(unit 1)
@@ -17520,7 +17676,7 @@
 			(uuid "217ec147-ef57-493a-a57c-40a6cbb39435")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "#PWR022")
 					(unit 1)
@@ -17590,7 +17746,7 @@
 			(uuid "727690ec-f49c-4eb0-a292-2738ccb153c1")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "C41")
 					(unit 1)
@@ -17656,7 +17812,7 @@
 			(uuid "01f4f18c-1b88-48de-a201-840c629c3991")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "#PWR020")
 					(unit 1)
@@ -17724,7 +17880,7 @@
 			(uuid "d7fa3d68-6f1a-4a61-8505-98d1f9efdbcb")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "R14")
 					(unit 1)
@@ -17790,7 +17946,7 @@
 			(uuid "2f8c0967-0a5c-4ed7-a688-480d4bd0bd07")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "#PWR093")
 					(unit 1)
@@ -17856,7 +18012,7 @@
 			(uuid "89faf4f2-3938-43cf-b0bf-070ed5ff0fb3")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "#PWR089")
 					(unit 1)
@@ -17922,7 +18078,7 @@
 			(uuid "186ff803-1e24-4979-82d9-1f521ca44e44")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "#PWR088")
 					(unit 1)
@@ -17992,7 +18148,7 @@
 			(uuid "d48f36f3-cad9-481f-b4e7-206f91b4bd22")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "C5")
 					(unit 1)
@@ -18062,7 +18218,7 @@
 			(uuid "7006c7cf-3d17-4c50-89cd-199a048c43b2")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "C29")
 					(unit 1)
@@ -18128,7 +18284,7 @@
 			(uuid "ad6a4e73-b16f-4626-9f83-b03e3e66a154")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "#PWR073")
 					(unit 1)
@@ -18138,7 +18294,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 92.71 105.41 0)
+		(at 92.71 105.41 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18152,7 +18308,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "100nF"
@@ -18161,11 +18317,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 93.6752 109.22 0)
+			(at 91.7448 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18198,7 +18354,7 @@
 			(uuid "71ad7ab3-04ae-44b3-a47d-2665414da9c4")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "C14")
 					(unit 1)
@@ -18268,7 +18424,7 @@
 			(uuid "2db2f240-e515-45d1-a90a-e55d85e12739")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "C9")
 					(unit 1)
@@ -18347,7 +18503,7 @@
 			(uuid "353f14da-f66d-4d0d-884a-a83cae62d034")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "D8")
 					(unit 1)
@@ -18415,7 +18571,7 @@
 			(uuid "a4c0fcd2-49e2-49b0-8930-b91bc81c554a")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "R49")
 					(unit 1)
@@ -18481,7 +18637,7 @@
 			(uuid "a1ed03d8-a2b3-4c1d-b603-cbfed2ced0c7")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "#PWR045")
 					(unit 1)
@@ -18547,7 +18703,7 @@
 			(uuid "e9eea815-1228-45d6-a8e3-afa8befed150")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "#PWR067")
 					(unit 1)
@@ -18617,7 +18773,7 @@
 			(uuid "947d0a3c-8389-4c50-9573-dbd9fcb5c3da")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "C46")
 					(unit 1)
@@ -18687,7 +18843,7 @@
 			(uuid "033e8a69-35b0-451b-a0f5-96a49ea63849")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "R44")
 					(unit 1)
@@ -18757,7 +18913,7 @@
 			(uuid "24b693bd-326a-41b0-8ff2-8474e5d78d16")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "C40")
 					(unit 1)
@@ -18827,7 +18983,7 @@
 			(uuid "5e920366-6377-4107-986f-269f8fe11563")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "C35")
 					(unit 1)
@@ -18992,7 +19148,7 @@
 			(uuid "6175f56b-2007-4542-a755-c571dd4be9df")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "R4")
 					(unit 1)
@@ -19071,7 +19227,7 @@
 			(uuid "6310a451-ce7d-40f0-9ebf-ab7a9b41c24a")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "D9")
 					(unit 1)
@@ -19141,7 +19297,7 @@
 			(uuid "9012246e-5ea6-4866-ad7e-e3260385bf1f")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "R13")
 					(unit 1)
@@ -19211,7 +19367,7 @@
 			(uuid "dacf275a-a0fa-447a-a614-d99481ca64a6")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "C7")
 					(unit 1)
@@ -19290,7 +19446,7 @@
 			(uuid "96890bc5-54b9-4139-9ee5-b74112be1e7a")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "D10")
 					(unit 1)
@@ -19360,7 +19516,7 @@
 			(uuid "5937ea8f-ad4b-4ffa-847f-668c9c22d048")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "R35")
 					(unit 1)
@@ -19492,7 +19648,7 @@
 			(uuid "caf6cda0-e92c-43ab-bc8d-b0ee19ab3dc7")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "#PWR043")
 					(unit 1)
@@ -19756,7 +19912,7 @@
 			(uuid "afd7af44-d89e-4ac9-b509-06ef1528e853")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "#PWR078")
 					(unit 1)
@@ -19822,7 +19978,7 @@
 			(uuid "70a3da2a-b068-4173-bda3-f925d7aba01c")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "#PWR014")
 					(unit 1)
@@ -19892,7 +20048,7 @@
 			(uuid "aa8a5d6a-5aaf-4778-a30c-9c4ce98c0dbd")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "C31")
 					(unit 1)
@@ -19958,7 +20114,7 @@
 			(uuid "457034d8-9206-422f-a4f5-f05a1dadcbde")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "#PWR066")
 					(unit 1)
@@ -20024,7 +20180,7 @@
 			(uuid "d2ffcebe-957a-4940-8ebe-b05dad64a3eb")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "#PWR068")
 					(unit 1)
@@ -20089,7 +20245,7 @@
 			(uuid "dfb3c79f-23d4-4d1d-a130-9a60c98242a4")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "#PWR018")
 					(unit 1)
@@ -20159,7 +20315,7 @@
 			(uuid "4db52cdb-ded3-4fd0-b6c5-acf779032fcd")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "C45")
 					(unit 1)
@@ -20226,7 +20382,7 @@
 			(uuid "3fb2595c-d97b-4ec4-adaf-097b81fffbe3")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "#PWR087")
 					(unit 1)
@@ -20292,7 +20448,7 @@
 			(uuid "58a6ce6e-15f5-40de-84b6-326bf172f692")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "#PWR062")
 					(unit 1)
@@ -20358,7 +20514,7 @@
 			(uuid "a3e14d82-ad65-43b9-bf8d-5b2d0717deb1")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "#PWR077")
 					(unit 1)
@@ -20494,7 +20650,7 @@
 			(uuid "88126fe8-948e-4051-a4d7-a7cd0824808a")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "R45")
 					(unit 1)
@@ -20774,7 +20930,7 @@
 			(uuid "441ed1a5-4df5-4425-9218-48a63a3d9d3e")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/2a901d39-6beb-43c6-8602-9359e9e7f825"
 					(reference "R31")
 					(unit 1)

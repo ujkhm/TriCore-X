@@ -5,7 +5,6 @@
   (lib (name "SMBJ26A")(type "KiCad")(uri "${KIPRJMOD}/symbols and footprints.pretty/SMBJ26A")(options "")(descr ""))
   (lib (name "877159106")(type "KiCad")(uri "${KIPRJMOD}/symbols and footprints.pretty/877159106")(options "")(descr ""))
   (lib (name "BL-M8822CU3-A")(type "KiCad")(uri "${KIPRJMOD}/symbols and footprints.pretty/BL-M8822CU3-A")(options "")(descr ""))
-  (lib (name "L_6045")(type "KiCad")(uri "${KIPRJMOD}/symbols and footprints.pretty/L_6045")(options "")(descr ""))
   (lib (name "USB3300-EZK-TR")(type "KiCad")(uri "${KIPRJMOD}/symbols and footprints.pretty/USB3300-EZK-TR")(options "")(descr ""))
   (lib (name "CH334P")(type "KiCad")(uri "${KIPRJMOD}/symbols and footprints.pretty/CH334P")(options "")(descr ""))
   (lib (name "RJ45")(type "KiCad")(uri "${KIPRJMOD}/symbols and footprints.pretty/RJ45")(options "")(descr ""))

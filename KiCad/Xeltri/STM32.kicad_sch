@@ -297,6 +297,279 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:FerriteBead"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FB"
+				(at -3.81 0.635 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "FerriteBead"
+				(at 3.81 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ferrite bead"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "L ferrite bead inductor filter"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FerriteBead_0_1"
+				(polyline
+					(pts
+						(xy -2.7686 0.4064) (xy -1.7018 2.2606) (xy 2.7686 -0.3048) (xy 1.6764 -2.159) (xy -2.7686 0.4064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 1.2954)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.2192)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "FerriteBead_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Diode:SS14"
 			(pin_numbers
 				(hide yes)
@@ -6973,18 +7246,6 @@
 		)
 	)
 	(junction
-		(at 344.17 396.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "04f3447c-c71b-415f-b698-4c2504d58500")
-	)
-	(junction
-		(at 240.03 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "056c8cf4-b2d7-4141-b4bd-b18dcf9cee5c")
-	)
-	(junction
 		(at 190.5 388.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6995,6 +7256,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "087f2f2b-fa28-4849-b811-f0a9fc8691f0")
+	)
+	(junction
+		(at 204.47 358.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0cb876d5-60c2-436b-933a-c2c2ec11c265")
 	)
 	(junction
 		(at 106.68 396.24)
@@ -7015,10 +7282,22 @@
 		(uuid "1a42910a-f335-4d15-bbf1-612fe5c3489c")
 	)
 	(junction
-		(at 330.2 396.24)
+		(at 181.61 350.52)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "211f60f8-e89f-4873-a965-fb280fcb07b3")
+		(uuid "1ba6f450-4c3b-4ac3-abef-3e4de6b49816")
+	)
+	(junction
+		(at 190.5 358.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22918993-6d1e-467f-8a6d-7332fb60abf1")
+	)
+	(junction
+		(at 347.98 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24cda9c8-4c56-48f1-93bb-d54192e567d2")
 	)
 	(junction
 		(at 243.84 314.96)
@@ -7057,6 +7336,12 @@
 		(uuid "315f1ac4-80fb-4b00-9a2c-47ca7fd5b523")
 	)
 	(junction
+		(at 190.5 350.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "360ecd7c-2931-44b8-9a7d-b5f9ef4cedcd")
+	)
+	(junction
 		(at 218.44 396.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7081,16 +7366,16 @@
 		(uuid "488f2731-d06b-4afd-903e-945472c8f6bd")
 	)
 	(junction
-		(at 330.2 388.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "49aef57b-de2f-4bc4-a297-bbd27e8bee9e")
-	)
-	(junction
 		(at 148.59 388.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4f3128ea-5707-4df1-80bf-0df347d3e048")
+	)
+	(junction
+		(at 162.56 358.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5513dff6-d675-41b3-9273-867a84927c35")
 	)
 	(junction
 		(at 92.71 388.62)
@@ -7105,16 +7390,22 @@
 		(uuid "55639e8a-a9fa-48d3-819b-08fa315dd678")
 	)
 	(junction
+		(at 330.2 388.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d85a8fd-c3ac-4cbb-b38e-10aa2614c101")
+	)
+	(junction
 		(at 176.53 388.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5d897db2-2c61-42b0-bbbd-73f9337ed6da")
 	)
 	(junction
-		(at 344.17 388.62)
+		(at 327.66 353.06)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "61baeefb-2a17-437c-91b1-f9a107d9bf32")
+		(uuid "60824801-831d-4751-8b8c-2495fb1a620a")
 	)
 	(junction
 		(at 232.41 388.62)
@@ -7127,6 +7418,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6a2b1ae1-34bd-43d8-be5c-246f69e34fab")
+	)
+	(junction
+		(at 231.14 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d8935ae-33de-4934-83c2-8b3f4c6a7b29")
 	)
 	(junction
 		(at 92.71 396.24)
@@ -7157,6 +7454,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7d962d04-9736-42c4-8074-3e9d40b11df2")
+	)
+	(junction
+		(at 176.53 358.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7fb39aa8-0610-4334-9402-65e7ecfc01e3")
 	)
 	(junction
 		(at 120.65 388.62)
@@ -7195,6 +7498,12 @@
 		(uuid "97cc1819-1057-4cd4-8a11-5530dcbd6a46")
 	)
 	(junction
+		(at 204.47 350.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99358ec7-ac14-41ae-aceb-1e34a8e1cb39")
+	)
+	(junction
 		(at 317.5 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7213,16 +7522,34 @@
 		(uuid "a40bfa4a-b77c-415f-960a-150118a39177")
 	)
 	(junction
+		(at 162.56 350.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a57203d6-fb35-48cc-8ff1-18d9277930a4")
+	)
+	(junction
 		(at 312.42 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a58af3bd-5d44-48ca-b4de-14ae2ea7ca69")
 	)
 	(junction
+		(at 345.44 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9875d4a-936a-4243-a1c5-3eaaf5e16567")
+	)
+	(junction
 		(at 307.34 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae2ea785-c521-4c97-8356-855847552c2f")
+	)
+	(junction
+		(at 109.22 358.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "afbb85b9-65de-42ee-af9f-8b0f8803956f")
 	)
 	(junction
 		(at 288.29 388.62)
@@ -7273,16 +7600,16 @@
 		(uuid "bc855bea-7a1a-42d8-a9a4-b91b218e8f1e")
 	)
 	(junction
+		(at 330.2 396.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bda21e40-b592-4875-a4ca-5af766defe02")
+	)
+	(junction
 		(at 304.8 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c3a77b6b-940f-499b-8404-3d70cc1c7281")
-	)
-	(junction
-		(at 252.73 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ca82efdc-c24e-47f7-bb31-aae8157bf368")
 	)
 	(junction
 		(at 162.56 388.62)
@@ -7309,10 +7636,28 @@
 		(uuid "da220402-68d8-495e-856f-98787da2499d")
 	)
 	(junction
+		(at 176.53 350.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ddece258-ea9e-433d-b5d4-1d30a495e1c6")
+	)
+	(junction
+		(at 182.88 358.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfac7afd-b4dd-49d3-a30a-06f3892a27ac")
+	)
+	(junction
 		(at 274.32 388.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e6f4c7b1-4488-4e6c-bff6-49105e003264")
+	)
+	(junction
+		(at 109.22 350.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7689a41-4df6-4e66-bdc8-71eb78f03cf4")
 	)
 	(junction
 		(at 302.26 388.62)
@@ -7349,6 +7694,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb86dd2d-7578-406f-b54c-a9569bb35abb")
+	)
+	(no_connect
+		(at 274.32 88.9)
+		(uuid "c2d6c525-eca7-441f-9e93-61fa0bbae7a6")
 	)
 	(wire
 		(pts
@@ -7389,6 +7738,16 @@
 			(type default)
 		)
 		(uuid "12b4e61e-1f20-4336-a392-847de11baf04")
+	)
+	(wire
+		(pts
+			(xy 392.43 391.16) (xy 379.73 391.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13d91b79-611e-4734-89f0-93e828008bc8")
 	)
 	(wire
 		(pts
@@ -7442,6 +7801,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 358.14) (xy 109.22 358.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2aa156c9-3f35-41c8-8137-196c791b8b98")
+	)
+	(wire
+		(pts
 			(xy 250.19 307.34) (xy 250.19 304.8)
 		)
 		(stroke
@@ -7482,6 +7851,16 @@
 	)
 	(wire
 		(pts
+			(xy 345.44 68.58) (xy 347.98 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36645aed-5996-4c3a-bbf0-2a0f69485323")
+	)
+	(wire
+		(pts
 			(xy 176.53 396.24) (xy 190.5 396.24)
 		)
 		(stroke
@@ -7489,6 +7868,16 @@
 			(type default)
 		)
 		(uuid "3984ab05-6fba-44a1-b4e8-342c6a996b1b")
+	)
+	(wire
+		(pts
+			(xy 109.22 350.52) (xy 115.57 350.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bbcab02-ac0d-4805-bea7-fa8d4217a620")
 	)
 	(wire
 		(pts
@@ -7522,6 +7911,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 358.14) (xy 182.88 358.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41f41a95-14db-4b83-9b5a-337c6899ec49")
+	)
+	(wire
+		(pts
 			(xy 342.9 68.58) (xy 345.44 68.58)
 		)
 		(stroke
@@ -7549,6 +7948,16 @@
 			(type default)
 		)
 		(uuid "48548a44-2d44-4690-b561-7149d9c63183")
+	)
+	(wire
+		(pts
+			(xy 392.43 388.62) (xy 392.43 391.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fae9a85-e8c3-41cb-8528-2bbc9a50bb54")
 	)
 	(wire
 		(pts
@@ -7618,17 +8027,17 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "5ad56303-8fe6-4f1e-8408-ddd659547786")
+		(uuid "55091188-fc55-477a-b731-0f58aa87c239")
 	)
 	(wire
 		(pts
-			(xy 237.49 91.44) (xy 240.03 91.44)
+			(xy 182.88 358.14) (xy 190.5 358.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5d97e911-9ec6-4aee-bb19-8147ecd6c209")
+		(uuid "5b06983e-640b-49fe-a71b-6aacf4afae7d")
 	)
 	(wire
 		(pts
@@ -7639,16 +8048,6 @@
 			(type default)
 		)
 		(uuid "5e0ac195-afaf-49cc-845e-20b437286876")
-	)
-	(wire
-		(pts
-			(xy 344.17 396.24) (xy 358.14 396.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ebd5069-01bf-4bbc-beb9-9888bb53efa9")
 	)
 	(wire
 		(pts
@@ -7712,6 +8111,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 91.44) (xy 231.14 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "696b1c48-40d2-4c7b-9c94-311c53529407")
+	)
+	(wire
+		(pts
 			(xy 250.19 304.8) (xy 267.97 304.8)
 		)
 		(stroke
@@ -7752,6 +8161,16 @@
 	)
 	(wire
 		(pts
+			(xy 360.68 391.16) (xy 372.11 391.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7650cf48-10e2-42b3-a2e4-6fb6b924966c")
+	)
+	(wire
+		(pts
 			(xy 78.74 396.24) (xy 92.71 396.24)
 		)
 		(stroke
@@ -7762,13 +8181,13 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 388.62) (xy 358.14 388.62)
+			(xy 190.5 358.14) (xy 204.47 358.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "77cce261-5dd9-442d-a172-47aaba0cb5f5")
+		(uuid "77d67491-a325-4fa0-934e-c59984c5bd86")
 	)
 	(wire
 		(pts
@@ -7779,6 +8198,16 @@
 			(type default)
 		)
 		(uuid "79807cd5-ff37-49fd-90af-ccb7aa4a6620")
+	)
+	(wire
+		(pts
+			(xy 176.53 350.52) (xy 181.61 350.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80130f0e-395a-4d12-a7b6-4e876e632c75")
 	)
 	(wire
 		(pts
@@ -7802,6 +8231,36 @@
 	)
 	(wire
 		(pts
+			(xy 325.12 353.06) (xy 327.66 353.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87ea8c7d-6878-45c9-9451-a51a058f77ec")
+	)
+	(wire
+		(pts
+			(xy 162.56 350.52) (xy 176.53 350.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d06066e-8196-4fba-9cde-a04c82885437")
+	)
+	(wire
+		(pts
+			(xy 330.2 388.62) (xy 344.17 388.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ec7ab8b-6810-443a-a055-3a4d1b5cd9b0")
+	)
+	(wire
+		(pts
 			(xy 148.59 396.24) (xy 162.56 396.24)
 		)
 		(stroke
@@ -7812,6 +8271,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 358.14) (xy 162.56 358.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9020a32a-d0da-4b28-80e4-c563610ec73f")
+	)
+	(wire
+		(pts
 			(xy 246.38 388.62) (xy 260.35 388.62)
 		)
 		(stroke
@@ -7819,6 +8288,16 @@
 			(type default)
 		)
 		(uuid "90846f4f-a323-4d57-9332-53f32b2b84ff")
+	)
+	(wire
+		(pts
+			(xy 109.22 358.14) (xy 115.57 358.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "916e6dfb-c7c5-4b0b-afef-e954a43e2ed1")
 	)
 	(wire
 		(pts
@@ -7862,6 +8341,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 99.06) (xy 274.32 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e637bee-3538-450c-b711-1c3e7bf33409")
+	)
+	(wire
+		(pts
 			(xy 204.47 396.24) (xy 218.44 396.24)
 		)
 		(stroke
@@ -7869,16 +8358,6 @@
 			(type default)
 		)
 		(uuid "9f56e045-2308-4b12-8ba3-d4cb3cf7acfb")
-	)
-	(wire
-		(pts
-			(xy 330.2 388.62) (xy 344.17 388.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ff70a10-cec0-479f-9516-5cb70c02d589")
 	)
 	(wire
 		(pts
@@ -7922,13 +8401,53 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 91.44) (xy 274.32 91.44)
+			(xy 358.14 63.5) (xy 358.14 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ac9a62b6-2f30-4a51-b54d-dc7d52ea751d")
+		(uuid "b379d23b-991d-46ee-a194-9c5ebd83716d")
+	)
+	(wire
+		(pts
+			(xy 190.5 350.52) (xy 204.47 350.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b599fe6c-66ec-47ae-abac-707c6dac1740")
+	)
+	(wire
+		(pts
+			(xy 102.87 350.52) (xy 109.22 350.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b92664d6-3efa-418a-be5c-f7ed4dae4460")
+	)
+	(wire
+		(pts
+			(xy 204.47 358.14) (xy 218.44 358.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbb559b2-ce91-4d4e-bb7b-a921a08614c9")
+	)
+	(wire
+		(pts
+			(xy 360.68 388.62) (xy 360.68 391.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bea38ce9-1b83-45e9-a355-e8e8ecd375e5")
 	)
 	(wire
 		(pts
@@ -7942,6 +8461,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 358.14) (xy 176.53 358.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6145122-04a1-4542-aebb-4e1ef9af08ec")
+	)
+	(wire
+		(pts
 			(xy 316.23 388.62) (xy 330.2 388.62)
 		)
 		(stroke
@@ -7949,6 +8478,16 @@
 			(type default)
 		)
 		(uuid "c6721d6e-c1e8-4b77-9363-ab933f18e8bd")
+	)
+	(wire
+		(pts
+			(xy 204.47 350.52) (xy 218.44 350.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6e0e0bc-0514-4512-bb5e-f068d3c4d02a")
 	)
 	(wire
 		(pts
@@ -8002,6 +8541,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 350.52) (xy 162.56 350.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d145a786-9c18-4a8a-9a85-cd803a22e998")
+	)
+	(wire
+		(pts
 			(xy 317.5 68.58) (xy 320.04 68.58)
 		)
 		(stroke
@@ -8009,6 +8558,16 @@
 			(type default)
 		)
 		(uuid "d687fde3-56f7-4d25-ae78-1bf87c42b886")
+	)
+	(wire
+		(pts
+			(xy 231.14 91.44) (xy 274.32 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9f330bd-0324-426a-a9ef-d11441bffaae")
 	)
 	(wire
 		(pts
@@ -8032,13 +8591,13 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 91.44) (xy 252.73 91.44)
+			(xy 181.61 350.52) (xy 190.5 350.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e4886965-f2cd-4c95-acc9-c74afbce6644")
+		(uuid "e550bd0e-0727-404f-b005-01853b676e12")
 	)
 	(wire
 		(pts
@@ -8062,6 +8621,16 @@
 	)
 	(wire
 		(pts
+			(xy 327.66 353.06) (xy 330.2 353.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9932845-c84f-4484-9778-e7f587f38af0")
+	)
+	(wire
+		(pts
 			(xy 288.29 396.24) (xy 302.26 396.24)
 		)
 		(stroke
@@ -8069,6 +8638,16 @@
 			(type default)
 		)
 		(uuid "ee021446-1559-4c12-814f-9588386a75ff")
+	)
+	(wire
+		(pts
+			(xy 347.98 68.58) (xy 350.52 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f37f7afa-1b25-43ce-8c87-a21f694a7e7a")
 	)
 	(wire
 		(pts
@@ -8192,9 +8771,145 @@
 			(uuid "4d662eb0-94c9-4606-9a71-0889e4c78c8b")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/947b9af7-0b08-456b-ad03-a4dd3c7b9c00"
 					(reference "C55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 148.59 354.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07b8fff6-90cb-4fce-a789-c0e4219ff3f1")
+		(property "Reference" "C76"
+			(at 152.4 353.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 152.4 355.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 149.5552 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 148.59 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4dce6374-9446-4336-9256-b2a27691ba72")
+		)
+		(pin "1"
+			(uuid "7b2ff286-da08-42aa-9f61-950fd86c424e")
+		)
+		(instances
+			(project "Xeltri"
+				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/947b9af7-0b08-456b-ad03-a4dd3c7b9c00"
+					(reference "C76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDDA")
+		(at 109.22 350.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "088a16d7-1b27-4459-917a-273231076a07")
+		(property "Reference" "#PWR01"
+			(at 109.22 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDDA"
+			(at 109.22 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDDA\""
+			(at 109.22 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03182dee-6737-4ea5-9fb9-202f6dfb4fe1")
+		)
+		(instances
+			(project "Xeltri"
+				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/947b9af7-0b08-456b-ad03-a4dd3c7b9c00"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -8262,7 +8977,7 @@
 			(uuid "9e98f5a5-e786-49a4-8db7-60ae4455763c")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/947b9af7-0b08-456b-ad03-a4dd3c7b9c00"
 					(reference "C51")
 					(unit 1)
@@ -8271,8 +8986,208 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 254 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12ce0937-43e8-4ffb-89b6-8d88bc9594e5")
+		(property "Reference" "#PWR0114"
+			(at 257.81 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 250.19 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 254 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b4c17ea-e8e3-4509-8c29-ec5b2adcb556")
+		)
+		(instances
+			(project "Xeltri"
+				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/947b9af7-0b08-456b-ad03-a4dd3c7b9c00"
+					(reference "#PWR0114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 327.66 353.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "180a8925-29ac-4500-b41d-0d8b570712a8")
+		(property "Reference" "#PWR0111"
+			(at 327.66 359.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 327.66 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 327.66 353.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 327.66 353.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 327.66 353.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dcff7789-b5de-47d7-814d-16a7899a5517")
+		)
+		(instances
+			(project "Xeltri"
+				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/947b9af7-0b08-456b-ad03-a4dd3c7b9c00"
+					(reference "#PWR0111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 274.32 93.98 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1cfb3e00-685e-42ea-b515-5108a622cb3c")
+		(property "Reference" "#PWR0112"
+			(at 267.97 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 270.51 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 274.32 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 274.32 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "984099da-fdd8-48db-9582-9ad4443e77ce")
+		)
+		(instances
+			(project "Xeltri"
+				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/947b9af7-0b08-456b-ad03-a4dd3c7b9c00"
+					(reference "#PWR0112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
-		(at 252.73 95.25 0)
+		(at 115.57 354.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8281,7 +9196,7 @@
 		(fields_autoplaced yes)
 		(uuid "225ae1ba-32c1-4bca-9c8f-58fa9fd9a5e3")
 		(property "Reference" "C53"
-			(at 256.54 93.9799 0)
+			(at 119.38 353.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8290,7 +9205,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 256.54 96.5199 0)
+			(at 119.38 355.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8299,7 +9214,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 253.6952 99.06 0)
+			(at 116.5352 358.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8308,7 +9223,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 252.73 95.25 0)
+			(at 115.57 354.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8317,7 +9232,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 252.73 95.25 0)
+			(at 115.57 354.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8332,7 +9247,7 @@
 			(uuid "352c53a0-c866-4986-8cf6-75a65eadf47a")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/947b9af7-0b08-456b-ad03-a4dd3c7b9c00"
 					(reference "C53")
 					(unit 1)
@@ -8402,7 +9317,7 @@
 			(uuid "b4ec0209-99c7-48b4-933e-c9560179c701")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/947b9af7-0b08-456b-ad03-a4dd3c7b9c00"
 					(reference "C58")
 					(unit 1)
@@ -8472,7 +9387,7 @@
 			(uuid "6937a99f-d264-4329-a1db-3aef998cdfe4")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/947b9af7-0b08-456b-ad03-a4dd3c7b9c00"
 					(reference "C56")
 					(unit 1)
@@ -8542,7 +9457,7 @@
 			(uuid "1b056824-7510-4fe8-bc19-18b4b55485ad")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/947b9af7-0b08-456b-ad03-a4dd3c7b9c00"
 					(reference "C62")
 					(unit 1)
@@ -8612,7 +9527,7 @@
 			(uuid "6021c965-02fd-456d-ad5d-473009c60052")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/947b9af7-0b08-456b-ad03-a4dd3c7b9c00"
 					(reference "C49")
 					(unit 1)
@@ -8621,17 +9536,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 240.03 99.06 0)
+		(lib_id "power:+3.3V")
+		(at 358.14 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4d493a54-6ba2-4b9d-aa91-64be4b4f92fc")
-		(property "Reference" "#PWR0109"
-			(at 240.03 105.41 0)
+		(uuid "3fbe46fd-80ce-4132-bab1-0094ebef1953")
+		(property "Reference" "#PWR0113"
+			(at 358.14 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8639,8 +9554,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 240.03 104.14 0)
+		(property "Value" "+3.3V"
+			(at 358.14 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8648,7 +9563,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 240.03 99.06 0)
+			(at 358.14 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8657,7 +9572,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 99.06 0)
+			(at 358.14 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8665,8 +9580,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 240.03 99.06 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 358.14 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8675,12 +9590,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f67623ae-232d-40d2-a8b5-9a15fd745716")
+			(uuid "e3e26266-9997-4efb-9e1b-74de0ec6cc51")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/947b9af7-0b08-456b-ad03-a4dd3c7b9c00"
-					(reference "#PWR0109")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -8744,9 +9659,75 @@
 			(uuid "64588d5d-16f2-415b-a978-6e16621463f9")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/947b9af7-0b08-456b-ad03-a4dd3c7b9c00"
 					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 231.14 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5306b39a-9547-4588-b40e-aae1a064d22e")
+		(property "Reference" "#PWR0106"
+			(at 231.14 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 231.14 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 231.14 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5353bd6-3ab8-4e28-a757-e299f64bc7dc")
+		)
+		(instances
+			(project "Xeltri"
+				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/947b9af7-0b08-456b-ad03-a4dd3c7b9c00"
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -8814,7 +9795,7 @@
 			(uuid "05c91b5c-d326-4622-a1c9-edfa903c2692")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/947b9af7-0b08-456b-ad03-a4dd3c7b9c00"
 					(reference "C69")
 					(unit 1)
@@ -8884,7 +9865,7 @@
 			(uuid "4cd4b875-2105-423e-8540-770d0586c19f")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/947b9af7-0b08-456b-ad03-a4dd3c7b9c00"
 					(reference "C52")
 					(unit 1)
@@ -8950,7 +9931,7 @@
 			(uuid "c88b5321-cc47-4583-a4a6-65aa9cb4b140")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/947b9af7-0b08-456b-ad03-a4dd3c7b9c00"
 					(reference "#PWR099")
 					(unit 1)
@@ -9020,7 +10001,7 @@
 			(uuid "5f07b49e-f0e5-4502-b925-674c49e36e42")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/947b9af7-0b08-456b-ad03-a4dd3c7b9c00"
 					(reference "C63")
 					(unit 1)
@@ -9029,17 +10010,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 325.12 353.06 0)
+		(lib_id "Device:C")
+		(at 231.14 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6f4c7f4b-d599-4640-bc1a-eb0b6f3fe3e3")
-		(property "Reference" "#PWR01"
-			(at 325.12 359.41 0)
+		(uuid "775e07f1-8d6b-42c0-9ae7-2f492ed7a532")
+		(property "Reference" "C75"
+			(at 234.95 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 234.95 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 232.1052 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9047,16 +10046,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 325.12 358.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 325.12 353.06 0)
+		(property "Datasheet" "~"
+			(at 231.14 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9064,17 +10055,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 325.12 353.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 325.12 353.06 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 231.14 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9083,12 +10065,82 @@
 			)
 		)
 		(pin "1"
-			(uuid "46c35306-5742-4551-9f46-a5d51e6b38a2")
+			(uuid "0bbb8490-e54a-49bc-b5d0-daf573e343b7")
+		)
+		(pin "2"
+			(uuid "8bde7221-1079-4f33-b00f-239f9b9e075c")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/947b9af7-0b08-456b-ad03-a4dd3c7b9c00"
-					(reference "#PWR01")
+					(reference "C75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 274.32 101.6 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7aa72189-5671-4849-be08-5179b2c84b57")
+		(property "Reference" "#PWR0104"
+			(at 267.97 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 270.51 101.5999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 274.32 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 274.32 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "544ed8f0-e5b4-4f8a-a7f5-e3b2ec16b9d2")
+		)
+		(instances
+			(project "Xeltri"
+				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/947b9af7-0b08-456b-ad03-a4dd3c7b9c00"
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -9156,7 +10208,7 @@
 			(uuid "2ade04b3-f0cb-418e-86de-7de7d1ba8f37")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/947b9af7-0b08-456b-ad03-a4dd3c7b9c00"
 					(reference "C67")
 					(unit 1)
@@ -9166,7 +10218,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 252.73 99.06 0)
+		(at 109.22 358.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9175,7 +10227,7 @@
 		(fields_autoplaced yes)
 		(uuid "87f9d82c-c6b8-4f60-822d-6f7ead178a1b")
 		(property "Reference" "#PWR0108"
-			(at 252.73 105.41 0)
+			(at 109.22 364.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9184,7 +10236,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 252.73 104.14 0)
+			(at 109.22 363.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9192,7 +10244,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 252.73 99.06 0)
+			(at 109.22 358.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9201,7 +10253,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 99.06 0)
+			(at 109.22 358.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9210,7 +10262,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 252.73 99.06 0)
+			(at 109.22 358.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9222,7 +10274,7 @@
 			(uuid "a7cf7ef7-09ce-407b-9b8f-c025419e0ef7")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/947b9af7-0b08-456b-ad03-a4dd3c7b9c00"
 					(reference "#PWR0108")
 					(unit 1)
@@ -9292,7 +10344,7 @@
 			(uuid "b29ddbd5-94c0-4109-bf52-9150a33b4732")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/947b9af7-0b08-456b-ad03-a4dd3c7b9c00"
 					(reference "C59")
 					(unit 1)
@@ -9362,9 +10414,79 @@
 			(uuid "46da0296-2799-4f66-8ae4-d91b1220a00f")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/947b9af7-0b08-456b-ad03-a4dd3c7b9c00"
 					(reference "C61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 344.17 392.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a955f92-dc05-4e1a-9086-cefec75ebc93")
+		(property "Reference" "C73"
+			(at 347.98 391.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 347.98 393.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 345.1352 396.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 344.17 392.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 344.17 392.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3bf44edf-38a6-4772-8ad1-55791a71385e")
+		)
+		(pin "2"
+			(uuid "5d9a9729-64d2-4846-bf84-03345faa60c9")
+		)
+		(instances
+			(project "Xeltri"
+				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/947b9af7-0b08-456b-ad03-a4dd3c7b9c00"
+					(reference "C73")
 					(unit 1)
 				)
 			)
@@ -9432,7 +10554,7 @@
 			(uuid "031b02fd-2712-4029-a2c7-977476187afa")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/947b9af7-0b08-456b-ad03-a4dd3c7b9c00"
 					(reference "C65")
 					(unit 1)
@@ -9502,7 +10624,7 @@
 			(uuid "b0daa1f6-c905-46fd-b544-3d88ebbe8b22")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/947b9af7-0b08-456b-ad03-a4dd3c7b9c00"
 					(reference "C72")
 					(unit 1)
@@ -9577,35 +10699,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 358.14 392.43 0)
+		(lib_id "Device:R")
+		(at 257.81 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a5d06020-7107-407f-b24a-e2f861ba6d15")
-		(property "Reference" "C74"
-			(at 361.95 391.1599 0)
+		(uuid "a8540015-b644-4186-9ae6-6740451478f4")
+		(property "Reference" "R58"
+			(at 257.81 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 361.95 393.6999 0)
+		(property "Value" "10K"
+			(at 257.81 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 359.1052 396.24 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 257.81 100.838 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9614,7 +10734,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 358.14 392.43 0)
+			(at 257.81 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9622,8 +10742,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 358.14 392.43 0)
+		(property "Description" "Resistor"
+			(at 257.81 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9632,15 +10752,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "f577d04c-20c6-40a7-9aa5-35f8a7c54268")
+			(uuid "7a2c889e-d374-4175-8768-95ad38da7e15")
 		)
 		(pin "2"
-			(uuid "e4e171de-c7a0-4f17-b838-14786ce2bd0a")
+			(uuid "f192b462-d945-4c9f-a155-f5e43ecf827e")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/947b9af7-0b08-456b-ad03-a4dd3c7b9c00"
-					(reference "C74")
+					(reference "R58")
 					(unit 1)
 				)
 			)
@@ -9704,9 +10824,75 @@
 			(uuid "fd28bab1-12cd-4a6f-a843-b39eeda4c7df")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/947b9af7-0b08-456b-ad03-a4dd3c7b9c00"
 					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 181.61 350.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ada1ae08-6dda-4075-b1ad-d3ce55cbd80e")
+		(property "Reference" "#PWR0103"
+			(at 181.61 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 181.61 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 181.61 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10f17ae6-496f-436c-8f9c-906eba3370ed")
+		)
+		(instances
+			(project "Xeltri"
+				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/947b9af7-0b08-456b-ad03-a4dd3c7b9c00"
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -9774,7 +10960,7 @@
 			(uuid "809b7583-9e53-4893-becb-69d7f6eca0c0")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/947b9af7-0b08-456b-ad03-a4dd3c7b9c00"
 					(reference "C60")
 					(unit 1)
@@ -9844,7 +11030,7 @@
 			(uuid "b81ee5dc-0cd1-4525-a460-ea8a2ec5a39c")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/947b9af7-0b08-456b-ad03-a4dd3c7b9c00"
 					(reference "C64")
 					(unit 1)
@@ -9997,7 +11183,7 @@
 			(uuid "dc010039-6bd6-45b1-b381-ec3c21f32f20")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/947b9af7-0b08-456b-ad03-a4dd3c7b9c00"
 					(reference "#PWR098")
 					(unit 1)
@@ -10006,87 +11192,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 344.17 392.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c4135726-b76a-4a5b-b55c-d841ac69b7bc")
-		(property "Reference" "C73"
-			(at 347.98 391.1599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 347.98 393.6999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 345.1352 396.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 344.17 392.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 344.17 392.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a5cff033-2ecb-4a2d-8373-920c7ac0158d")
-		)
-		(pin "2"
-			(uuid "9ea8883a-6475-4c72-9e64-5cb1ecaef650")
-		)
-		(instances
-			(project "TriCore-X"
-				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/947b9af7-0b08-456b-ad03-a4dd3c7b9c00"
-					(reference "C73")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VDDA")
-		(at 237.49 91.44 90)
+		(at 353.06 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c4be319f-2450-4554-b261-89233e7a4a41")
-		(property "Reference" "#PWR0106"
-			(at 241.3 91.44 0)
+		(uuid "b52db47e-6dd7-4ef9-aed7-aa661643497c")
+		(property "Reference" "#PWR0105"
+			(at 353.06 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10095,16 +11211,15 @@
 			)
 		)
 		(property "Value" "VDDA"
-			(at 233.68 91.4399 90)
+			(at 353.06 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 237.49 91.44 0)
+			(at 353.06 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10113,7 +11228,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 91.44 0)
+			(at 353.06 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10122,7 +11237,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDDA\""
-			(at 237.49 91.44 0)
+			(at 353.06 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10131,47 +11246,177 @@
 			)
 		)
 		(pin "1"
-			(uuid "8f4eb332-2adf-43b9-b8df-d9d37af493bf")
+			(uuid "404c356a-a120-4685-a722-89ee63e539b6")
 		)
 		(instances
-			(project ""
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/947b9af7-0b08-456b-ad03-a4dd3c7b9c00"
-					(reference "#PWR0106")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 240.03 95.25 0)
+		(lib_id "power:GND")
+		(at 182.88 358.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ced742db-2501-4525-86c1-c50e07e6eef8")
-		(property "Reference" "C54"
-			(at 243.84 93.9799 0)
+		(uuid "c3456e8e-36f7-4171-8262-39169b9673e2")
+		(property "Reference" "#PWR0115"
+			(at 182.88 364.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "1uF"
-			(at 243.84 96.5199 0)
+		(property "Value" "GND"
+			(at 182.88 363.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 240.9952 99.06 0)
+		(property "Footprint" ""
+			(at 182.88 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 182.88 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25b803f6-8317-4989-b39a-ffe3d63eca47")
+		)
+		(instances
+			(project "Xeltri"
+				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/947b9af7-0b08-456b-ad03-a4dd3c7b9c00"
+					(reference "#PWR0115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 218.44 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c77369ae-9860-42a2-ba57-d93ee5c13337")
+		(property "Reference" "#PWR0109"
+			(at 218.44 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 218.44 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 218.44 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa870bab-1fd3-4bd5-a339-8f3a1afa0f83")
+		)
+		(instances
+			(project "Xeltri"
+				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/947b9af7-0b08-456b-ad03-a4dd3c7b9c00"
+					(reference "#PWR0109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 375.92 391.16 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9f6d3a3-3426-47c2-b409-329de357cea1")
+		(property "Reference" "FB2"
+			(at 375.8692 383.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "600R@100M"
+			(at 375.8692 386.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+			(at 375.92 392.938 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10180,7 +11425,77 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 240.03 95.25 0)
+			(at 375.92 391.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ferrite bead"
+			(at 375.92 391.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64394991-d516-421e-95c5-9a5b9530dd5a")
+		)
+		(pin "2"
+			(uuid "2af64be4-a1fc-4747-9e94-cc8f41cf4756")
+		)
+		(instances
+			(project ""
+				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/947b9af7-0b08-456b-ad03-a4dd3c7b9c00"
+					(reference "FB2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 102.87 354.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ced742db-2501-4525-86c1-c50e07e6eef8")
+		(property "Reference" "C54"
+			(at 106.68 353.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 106.68 355.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 103.8352 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 354.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10189,7 +11504,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 240.03 95.25 0)
+			(at 102.87 354.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10204,9 +11519,75 @@
 			(uuid "4be18e32-410c-4e15-b7db-f8e10366df7e")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/947b9af7-0b08-456b-ad03-a4dd3c7b9c00"
 					(reference "C54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 392.43 388.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d093bb96-b63f-4aeb-b897-85efee9f6bc5")
+		(property "Reference" "#PWR0110"
+			(at 392.43 392.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 392.43 383.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 392.43 388.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 392.43 388.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 392.43 388.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0bc965cc-d593-4627-8bfa-e6dac054e905")
+		)
+		(instances
+			(project "Xeltri"
+				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/947b9af7-0b08-456b-ad03-a4dd3c7b9c00"
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -10274,7 +11655,7 @@
 			(uuid "e052423f-afd4-4099-97e8-1266b5762b9b")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/947b9af7-0b08-456b-ad03-a4dd3c7b9c00"
 					(reference "C71")
 					(unit 1)
@@ -10344,7 +11725,7 @@
 			(uuid "ed42b6da-41e2-4452-bd9b-3d4c8991294a")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/947b9af7-0b08-456b-ad03-a4dd3c7b9c00"
 					(reference "C70")
 					(unit 1)
@@ -10414,9 +11795,149 @@
 			(uuid "38a2305c-e35b-4d37-b113-dd50a8ddf6cf")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/947b9af7-0b08-456b-ad03-a4dd3c7b9c00"
 					(reference "C57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 218.44 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dcf5c2b8-6729-45e7-8e72-fe6e9002bb56")
+		(property "Reference" "C74"
+			(at 222.25 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 222.25 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 219.4052 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 218.44 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ac4a754-ac6e-40b0-9c7e-8ac1f7e5c663")
+		)
+		(pin "2"
+			(uuid "44736f36-3121-455a-b7dd-1495424e2425")
+		)
+		(instances
+			(project "Xeltri"
+				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/947b9af7-0b08-456b-ad03-a4dd3c7b9c00"
+					(reference "C74")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 204.47 354.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4b4903b-82ed-49fc-b310-61862b13ee4b")
+		(property "Reference" "C80"
+			(at 208.28 353.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 208.28 355.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 205.4352 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 204.47 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d58a6f97-32ff-46ff-b944-09d42e24a794")
+		)
+		(pin "2"
+			(uuid "801d6148-be0b-40a0-9f44-865be962e9b0")
+		)
+		(instances
+			(project "Xeltri"
+				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/947b9af7-0b08-456b-ad03-a4dd3c7b9c00"
+					(reference "C80")
 					(unit 1)
 				)
 			)
@@ -11344,9 +12865,215 @@
 			(uuid "cf9c3942-d8c7-4435-a416-320f4d2dc2c3")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/947b9af7-0b08-456b-ad03-a4dd3c7b9c00"
 					(reference "C68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 162.56 354.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec371183-7e7e-40b5-b03b-a7be1870f980")
+		(property "Reference" "C77"
+			(at 166.37 353.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 166.37 355.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 163.5252 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 162.56 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "341bc746-d721-4e01-8147-bb222872ea76")
+		)
+		(pin "1"
+			(uuid "e6802803-4d88-4cdf-9f13-690fef2a78fe")
+		)
+		(instances
+			(project "Xeltri"
+				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/947b9af7-0b08-456b-ad03-a4dd3c7b9c00"
+					(reference "C77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 176.53 354.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec644baa-8cfe-4a49-8c00-346f615f80a9")
+		(property "Reference" "C78"
+			(at 180.34 353.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 180.34 355.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 177.4952 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 176.53 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e1c98449-e3c7-4a30-869e-d91e333af278")
+		)
+		(pin "1"
+			(uuid "ddd7089d-6b0e-4ba9-8868-62b3c174e3e3")
+		)
+		(instances
+			(project "Xeltri"
+				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/947b9af7-0b08-456b-ad03-a4dd3c7b9c00"
+					(reference "C78")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDDA")
+		(at 360.68 388.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed1f00e3-f2c8-41ba-a45e-efd4b0d01219")
+		(property "Reference" "#PWR0107"
+			(at 360.68 392.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDDA"
+			(at 360.68 383.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 360.68 388.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 360.68 388.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDDA\""
+			(at 360.68 388.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0bf0cea8-5751-494a-8c83-8fdae9a6631c")
+		)
+		(instances
+			(project "Xeltri"
+				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/947b9af7-0b08-456b-ad03-a4dd3c7b9c00"
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -11410,9 +13137,79 @@
 			(uuid "7b51fc3c-fd6b-4a01-85c7-7f408d92ce56")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/947b9af7-0b08-456b-ad03-a4dd3c7b9c00"
 					(reference "#PWR082")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 218.44 354.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "efe43dac-90ef-4707-8c0d-1590b1b81672")
+		(property "Reference" "C81"
+			(at 222.25 353.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 222.25 355.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 219.4052 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 218.44 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee556a4e-db26-4dc4-8c0e-9e9dae293531")
+		)
+		(pin "2"
+			(uuid "60ac2a91-b5b5-49e4-9880-583d36a07ff4")
+		)
+		(instances
+			(project "Xeltri"
+				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/947b9af7-0b08-456b-ad03-a4dd3c7b9c00"
+					(reference "C81")
 					(unit 1)
 				)
 			)
@@ -11476,9 +13273,79 @@
 			(uuid "8fe8b7e9-8e66-417b-9977-8ad669ddae23")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/947b9af7-0b08-456b-ad03-a4dd3c7b9c00"
 					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 190.5 354.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1a5205a-7eaa-4e4c-8b49-59dc5513fcc5")
+		(property "Reference" "C79"
+			(at 194.31 353.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 194.31 355.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 191.4652 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 190.5 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1110dec-dcbf-49bb-96d8-9c3b4020c45c")
+		)
+		(pin "2"
+			(uuid "d766dabb-dc84-4fb7-b2d8-32137e8dd3ec")
+		)
+		(instances
+			(project "Xeltri"
+				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/947b9af7-0b08-456b-ad03-a4dd3c7b9c00"
+					(reference "C79")
 					(unit 1)
 				)
 			)
@@ -11614,7 +13481,7 @@
 			(uuid "862ea04d-f50d-49f0-a3ff-85d8f730b3aa")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/947b9af7-0b08-456b-ad03-a4dd3c7b9c00"
 					(reference "C66")
 					(unit 1)
@@ -11684,7 +13551,7 @@
 			(uuid "b0567ce7-6f85-4ca0-921d-4b08d2a8e7f2")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/947b9af7-0b08-456b-ad03-a4dd3c7b9c00"
 					(reference "C50")
 					(unit 1)

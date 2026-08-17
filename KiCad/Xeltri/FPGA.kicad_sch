@@ -8061,7 +8061,7 @@
 			(uuid "7289d5af-6016-4b66-96fd-01aea5ef9d29")
 		)
 		(instances
-			(project "TriCore-X"
+			(project "Xeltri"
 				(path "/b9ed8ff9-3a91-4311-b656-324fcf6f7e0c/61906021-8f9a-44c1-a3fd-cf11455c89ec"
 					(reference "#PWR011")
 					(unit 1)
