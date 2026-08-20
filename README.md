@@ -6,6 +6,9 @@
 
 #### Read the original Traditional Chinese version [here](README.zh-TW.md).
 
+**Hackaday.io Project Page:** [Xeltri - Pick and Place Control Board](https://hackaday.io/project/206451-xeltri-pick-and-place-control-board)
+
+
 ---
 
 ### Project overview
